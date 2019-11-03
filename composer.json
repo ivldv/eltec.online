@@ -1,0 +1,23 @@
+{
+    "name": "ivliev/email",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ivldv",
+            "email": "ivldv@mail.ru"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.9",
+        "ext-simplexml": "*",
+        "ext-json": "*",
+        "ext-zip": "*",
+        "ext-imap": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ivliev\\": "src"
+        }
+    }
+}
