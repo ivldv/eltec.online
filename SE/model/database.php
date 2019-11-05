@@ -43,7 +43,7 @@ Function deleteProductByIdPurveyors($purveyors){
  */
 function insertProduct($Purveyors,$products){
     global $pdo,$tableProduct;
-    $allowed = array("artikle","name","presence",'multiplicity','packaging','cost','producer'); // allowed fields
+    $allowed = array("artikle","name","presence",'multiplicity','packaging','cost','producer','groupprodukt'); // allowed fields
     
     $sql = "INSERT INTO ".$tableProduct." SET id_seller = ( SELECT id FROM purveyors WHERE name = '".$Purveyors."' ),".pdoSet($allowed,$values,$products);
 

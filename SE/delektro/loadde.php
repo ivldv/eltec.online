@@ -64,7 +64,7 @@ foreach($emails as $mail){
                 }
             }
         }
-//		imap_delete ( $inbox, $mail ); 
+		imap_delete ( $inbox, $mail ); 
         imap_expunge ( $inbox );
 
     }

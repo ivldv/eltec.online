@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+  <title>Eltec.online</title>
+  <meta charset="utf-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+  <meta content="telephone=no" name="format-detection">
+  <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link href="apple-touch-icon.png" rel="apple-touch-icon">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous">
+  <!-- Google Tag Manager -->
+  <!-- End Google Tag Manager -->
+
+</head>
+<!-- head-->
+
+<body class="home">
+
+  <!-- Google Tag Manager (noscript) -->
+  <!-- End Google Tag Manager (noscript) -->
+
+  <div class="wrap">
+    <header class="navbar-fixed-top ">
+      <div class="contaner-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+          <a class="navbar-brand" href="#"><b>ELTEC.ONLINE</b></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto justify-content-around topmenu">
+              <li class="nav-item active"> <a class="nav-link" href="#about">О нас <span class="sr-only">(current)</span></a></li>
+              <li class="nav-item"> <a class="nav-link" href="#why">Почему это выгодно</a> </li>
+              <li class="nav-item"> <a class="nav-link" href="#team">Команда</a> </li>
+              <li class="nav-item"> <a class="nav-link" href="#history">Контакты</a> </li>
+              <li class="nav-item"> <a class="nav-link" href="/stock/">Склад</a></li>
+              <li class="nav-item"> <a class="nav-link" href="/shop/">Магазин</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <div class="content" style="overflow: hidden">
+      <div class="container nopadding" id="about" style=" padding-top: 60px">
+        <div class="content__top">
+          <div class="row">
+            <div class="col-lg-8 content__top_text">
+              <h2>Привет! Это первая в России электротехническая компания, в которой не надо ходить на работу. </h2>
+              <div class="notebook_text">
+                С нами ты создашь свободный и стабильный бизнес, построенный на современных интернет технологиях.
+                Наш опыт работы на Российском рынке электротехники более 15 лет.
+              </div>
+
+              <p>&nbsp;Доход от 60 000 рублей в месяц!</p><!-- /ContentEditable -->
+              <div class="module module__share"><span>Мы в соцсетях:</span><br>
+                <a target="_blank" href="https://www.vk.com/eltec.online"><i class="svg-vk"></i></a>
+                <a target="_blank" href="https://www.facebook.com/groups/eltec.online/"><i class="svg-fb"></i></a>
+                <!-- <a target="_blank" href="https://www.twitter.com/moygorod_mobi"><i class="svg-tw"></i></a> -->
+                <a target="_blank" href="https://www.instagram.com/eltec.online/"><i class="svg-ig"></i></a>
+              </div><!-- end module share -->
+              <div class="module module__contacts"><a href="email:">Eltec.online@yandex.ru</a><br>
+              </div><!-- end module contacts -->
+            </div>
+          </div>
+
+          <div class="row justify-content-center">
+            <button type="button" class="btn btn-primary btn-lg zin" data-toggle="modal" data-target="#exampleModalCenter">
+              Зарегистрироваться!
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Окно регистрации</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+
+
+              </button>
+            </div>
+            <div class="modal-body form_text_align_center">Если ты опасаешься регистрироваться, следи за нами в
+              соцсетях</div>
+            <div class="modal-body">
+
+              <form class="form" id="form">
+                <div class="form-group">
+                  <input class="form__input_text form-control" type="text" name="name" required placeholder="Введите свое имя">
+                </div>
+                <div class="form-group">
+                  <input class="form-control col-md-8" type="email" name="email" required placeholder="Введите Email">
+                  <span id="valid"></span>
+                </div>
+                <div class="form-group">
+                  <input class="form__input form-control" type="tel" name="phone" placeholder="Введите номер телефона">
+                </div>
+                <div class="form-group">
+                  <select class="form-control" id="exampleFormControlSelect1" name="region" required>
+                    <option>Выберите свой регион</option>
+                    <option>Москва и Московская область</option>
+                    <option>Адыгея</option>
+                    <option>Алтайский край</option>
+                    <option>Амурская область</option>
+                    <option>Архангельская область</option>
+                    <option>Астраханская область</option>
+                    <option>Башкортостан </option>
+                    <option>Белгородская область</option>
+                    <option>Брянская область</option>
+                    <option>Бурятия Республика</option>
+                    <option>Владимирская область</option>
+                    <option>Волгоградская область </option>
+                    <option>Вологодская область </option>
+                    <option>Воронежская область</option>
+                    <option>Дагестан</option>
+                    <option>Еврейская АО</option>
+                    <option>Ивановская область</option>
+                    <option>Ингушетия </option>
+                    <option>Иркутская область</option>
+                    <option>Кабардино-Балкария</option>
+                    <option>Калининградская область</option>
+                    <option>Калмыкия</option>
+                    <option>Калужская область</option>
+                    <option>Камчатка </option>
+                    <option>Карачаево-Черкессия </option>
+                    <option>Карелия </option>
+                    <option>Кемеровская область</option>
+                    <option>Кировская область </option>
+                    <option>Коми Республика </option>
+                    <option>Коми-Пермяцкий АО </option>
+                    <option>Костромская область</option>
+                    <option>Краснодарский край</option>
+                    <option>Красноярский край</option>
+                    <option>Курганская область </option>
+                    <option>Курская область</option>
+                    <option>Ленинградская область</option>
+                    <option>Липецкая область</option>
+                    <option>Магаданская область</option>
+                    <option>Мари-Эл</option>
+                    <option>Мордовия</option>
+                    <option>Мурманская область </option>
+                    <option>Нижегородская область</option>
+                    <option>Новгородская область</option>
+                    <option>Новосибирская область </option>
+                    <option>Омская область </option>
+                    <option>Оренбургская область</option>
+                    <option>Орловская область </option>
+                    <option>Пензенская область </option>
+                    <option>Пермская область </option>
+                    <option>Приморский край</option>
+                    <option>Псковская область </option>
+                    <option>Ростовская область</option>
+                    <option>Рязанская область</option>
+                    <option>Самарская область </option>
+                    <option>Саратовская область</option>
+                    <option>Сахалин</option>
+                    <option>Свердловская область</option>
+                    <option>Северная Осетия</option>
+                    <option>Смоленская область</option>
+                    <option>Ставропольский край </option>
+                    <option>Таймыр </option>
+                    <option>Тамбовская область </option>
+                    <option>Татарстан</option>
+                    <option>Тверская область</option>
+                    <option>Томская область</option>
+                    <option>Тува </option>
+                    <option>Тульская область </option>
+                    <option>Тюменская область</option>
+                    <option>Удмуртия </option>
+                    <option>Ульяновская область </option>
+                    <option>Усть-Ордынский АО </option>
+                    <option>Хабаровский край</option>
+                    <option>Хакассия </option>
+                    <option>Ханты-Мансийск</option>
+                    <option>Челябинская область</option>
+                    <option>Чеченская Республика </option>
+                    <option>Читинская область </option>
+                    <option>Чувашская Республика </option>
+                    <option>Якутия (Саха)</option>
+                    <option>Ямало-Ненецкий АО</option>
+                    <option>Ярославская область</option>
+                  </select>
+                </div>
+
+                <div class="form-group form_text_align_center">
+                  <button class="btn btn-primary" type="submit">Зарегистрироваться!</button>
+                </div>
+                <div class="g-recaptcha" data-sitekey="6Lc0XHQUAAAAALrnggGwkqpIT2RSIX_SchixXgNh"></div>
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="partners">
+        <div class="container">
+          <div class="section__inner ">
+            <h2 class="text-center"> В проекте принимают участие бренды:</h2>
+            <div class="row">
+              <div class="col-md-4 col-lg-3">
+                <img src="/images/logo/berker.gif" alt="">
+              </div>
+              <div class="col-md-4 col-lg-3">
+                <img src="/images/logo/abb.gif" alt="">
+              </div>
+              <div class="col-md-4 col-lg-3">
+                <img src="/images/logo/legrand.gif" alt="">
+              </div>
+              <div class="col-md-4 col-lg-3">
+                <img src="/images/logo/gira.gif" alt="">
+              </div>
+              <div class="col-md-4 col-lg-3">
+                <img src="/images/logo/dkc.gif" alt="">
+              </div>
+              <div class="col-md-4 col-lg-3">
+                <img src="/images/logo/iek_logo.gif" alt="">
+              </div>
+              <div class="col-md-4 col-lg-3">
+                <img src="/images/logo/jung.gif" alt="">
+              </div>
+              <div class="col-md-4 col-lg-3">
+                <img src="/images/logo/logo_danfoss.gif" alt="">
+              </div>
+              <div class="col-md-4 col-lg-3">
+                <img src="/images/logo/logo_goriz.jpg" alt="">
+              </div>
+              <div class="col-md-4 col-lg-3">
+                <img src="/images/logo/lt_logo_black.jpg" alt="">
+              </div>
+              <div class="col-md-4 col-lg-3">
+                <img src="/images/logo/schneider_electric.gif" alt="">
+              </div>
+              <div class="col-md-4 col-lg-3">
+                <img src="/images/logo/tdm.jpg" alt="">
+              </div>
+              <div class="col-md-4 col-lg-3">
+                <img src="/images/logo/nexans.jpg" alt="">
+              </div>
+              <div class="col-md-4 col-lg-3">
+                <img src="/images/logo/tekfor_logo_2011.png" alt="">
+              </div>
+              <div class="col-md-4 col-lg-3">
+                <img src="/images/logo/concord.png" alt="">
+              </div>
+              <div class="col-md-4 col-lg-3">
+                <img src="/images/logo/sevcab.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-1" id="why">
+        <div class="container">
+          <div class="row section__advantages block-gray">
+            <div class="col-lg-4">
+              <h3>Свой бизнес</h3>
+              <ul>
+                <li>С небольшими вложениями и минимальными рисками;</li>
+                <li>Не нужен офис;</li>
+                <li>Не нужен склад;</li>
+                <li>Доставка товаров до пункта назначения;</li>
+                <li>Работа с физическими и юридическими лицами;</li>
+              </ul>
+            </div>
+            <div class="col-lg-4">
+              <h3>Интернет-технологии</h3>
+              <ul>
+                <li>Обучение работе через наш сервис;</li>
+                <li>Реферальные ссылки для привлечения новых клиентов и партнёров;</li>
+                <li>Работа из любой точки планеты;</li>
+                <li>Общение с единомышленниками.</li>
+              </ul>
+            </div>
+            <div class="col-lg-4">
+              <h3>Личностный рост</h3>
+              <ul>
+                <li>Свободное время на личностный рост;</li>
+                <li>Обучение от ведущих производителей электротехнического оборудования;</li>
+                <li>Поездки по всему миру;</li>
+                <li>Минимальный заработок продавца в любой компании.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-3">
+        <div class="container  block-gray section-3_b">
+          <div class="row section__inner block-gray justify-content-center">
+            <h2 class="text-center">Что наш сервис даст тебе:</h2>
+          </div>
+          <div class="row video">
+            <div class="video1">
+              <iframe width="680" height="385" src="https://www.youtube.com/embed/pRBMecvQqKI?rel=0&amp;showinfo=0"
+                frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="row">
+            <div class="grid-cell text-center col-md-4 "><i class="svg-rocket"></i>
+              <h3>Возможность<br> начать свой бизнес</h3>
+              <p>с небольшими вложениями и<br> минимальными рисками</p>
+            </div>
+            <div class="grid-cell text-center col-md-4 "><i class="svg-mobile"></i>
+              <h3>Зарабатывать</h3>
+              <p>из любой точки планеты</p>
+            </div>
+            <div class="grid-cell text-center col-md-4 ">
+              <div class="business"><img src="/images/business.png" alt=""></div>
+              <h3>Получать комиссию </h3>
+              <p>до 3,5% со своих заказов и заказов партнеров </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="grid-cell text-center col-md-4 "><i class="svg-thumb-up"></i>
+              <h3>Развиваться</h3>
+              <p>тестируя новые гипотезы<br> и бизнес-приёмы</p>
+            </div>
+            <div class="grid-cell text-center col-md-4 "><i class="svg-flag"></i>
+              <h3>Путешествовать по миру</h3>
+              <p>расширяя свой кругозор, количество клиентов и партнёров</p>
+            </div>
+            <div class="grid-cell text-center col-md-4 "><i class="svg-bolt"></i>
+              <h3>Оставить в прошлом</h3>
+              <p>наёмную работу и начальника, став независимым и успешным!</p>
+            </div>
+            <!-- /ContentEditable -->
+          </div>
+          <div class="row justify-content-center">
+            <button type="button" class="btn btn-primary btn-lg zin" data-toggle="modal" data-target="#exampleModalCenter">
+              Зарегистрироваться!
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="section-6" id="team">
+        <div class="container-fluid">
+          <div class="section__inner">
+            <div class="row justify-content-md-center">
+              <div class="grid-cell col-md-3  text-center ofset-2">
+                <div class="team__photo"><img src="./images/gd.jpg"></div>
+                <div class="team__name">Игорь Леоненко </div>
+                <div class="team__status">Директор. Oснователь</div>
+              </div>
+              <div class="grid-cell col-md-3  text-center">
+                <div class="team__photo"><img src="./images/f1.jpg"></div>
+                <div class="team__name">Синицин Сергей</div>
+                <div class="team__status">Директор по логистике</div>
+              </div>
+              <div class="grid-cell col-md-3  text-center">
+                <div class="team__photo"><img src="./images/f2.jpg"></div>
+                <div class="team__name">Стрелков Михаил</div>
+                <div class="team__status">Коммерческий директор</div>
+              </div>
+            </div>
+            <div class="row justify-content-md-center">
+              <div class="grid-cell col-md-3  text-center">
+                <div class="team__photo"><img src="./images/f4.jpg"></div>
+                <div class="team__name">Монахов Максим</div>
+                <div class="team__status">Начальник склада</div>
+              </div>
+              <div class="grid-cell col-md-3  text-center">
+                <div class="team__photo"><img src="./images/no_photo.png"></div>
+                <div class="team__name">Архипов Виктор</div>
+                <div class="team__status">Директор транспортного отдела</div>
+              </div>
+              <div class="grid-cell col-md-3  text-center">
+                <div class="team__photo"><img src="./images/no_photo.png"></div>
+                <div class="team__name">Ивлиев Дмитрий</div>
+                <div class="team__status">IT-директор</div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-7" id="history">
+        <div class="container">
+          <div class="section__inner block-gray">
+            <div class="row text-center">
+              <div class="col-md-12">
+                <h3>Выбери своё будущее:</h3>
+              </div>
+              <div class="col-md-6 true_pic">
+                <i class="far fa-check-circle"></i>
+                <img src="./images/true.jpg" alt="Красивая жизнь">
+              </div>
+              <div class="col-md-6 false_pic">
+                <i class="far fa-frown"></i>
+                <img src="./images/false.jpg" alt="Отстой">
+              </div>
+              <!-- /ContentEditable -->
+            </div>
+            <div class="row justify-content-center">
+              <button type="button" class="btn btn-primary btn-lg zin" data-toggle="modal" data-target="#exampleModalCenter">
+                Зарегистрироваться!
+              </button>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <!-- start footer-->
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="module module__copyright">(С) 2015&ndash;
+                <script>
+                  var date = new Date(),
+                    year = date.getFullYear();
+                  document.write(year);
+                </script><br>
+                <span>«Элтек-онлайн»</span> <br>
+                <a target="_blank" href="/police.php">Политика конфиденциальности</a>
+              </div>
+            </div>
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+              <div class="module module__contacts">
+                <a class="mail" href="Eltec.online@yandex.ru">Eltec.online@yandex.ru</a>
+              </div>
+              <div class="module module__share"><span>Следите за нами<br>в соцсетях:<br></span>
+                <a class="svg-vk" href="https://www.vk.com/eltec.online"></a>
+                <a class="svg-fb" href="https://www.facebook.com/groups/eltec.online/"></a>
+                <a class="svg-ig" href="https://www.instagram.com/eltec.online/"></a>
+              </div>
+            </div>
+          </div>
+      </footer>
+
+      <div class="white-popup-block mfp-hide" id="thanks">
+        <!-- ContentEditable name="Текст принятой заявки" -->
+        <h2>Спасибо!</h2>
+        <p>Ваша заявка принята! Наш менеджер свяжется с вами в ближайшее время!</p>
+        <!-- /ContentEditable -->
+        <div class="popup-close"><a href="#" data-popup-close>Закрыть</a></div>
+      </div>
+
+      <div class="white-popup-block mfp-hide" id="error">
+        <!-- ContentEditable name="Текст ошибки" -->
+        <h2>Ошибка!</h2>
+        <p>К сожалению, что-то пошло не так. Попробуйте, пожалуйста, позже, когда мы все исправим!</p>
+        <!-- /ContentEditable -->
+        <div class="popup-close"><a href="#" data-popup-close>Закрыть</a></div>
+      </div>
+
+
+      <!-- end footer-->
+      <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+      <script>
+        window.jQuery || document.write('<script src="js/jquery-3.3.1.min.js"><\/script>')
+      </script>
+      <script src="js/bootstrap.js"></script>
+      <script src="js/mailAjaks.js"></script>
+      <script src="js/jquery.maskedinput.js"></script>
+      <script src="js/popup.js"></script>
+      <script src='https://www.google.com/recaptcha/api.js'></script>
+</body>
+
+</html>

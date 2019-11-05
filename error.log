@@ -617,3 +617,754 @@
 [Sat Nov 02 10:34:39.188006 2019] [php7:notice] [pid 13632] [client 192.168.0.148:59997] PHP Fatal error:  Uncaught Error: Class 'Ivliev\\service\\sentToServer' not found in /var/www/eltec.online.local/elevel/parcepost.php:5\nStack trace:\n#0 {main}\n  thrown in /var/www/eltec.online.local/elevel/parcepost.php on line 5
 [Sat Nov 02 10:41:45.014937 2019] [php7:notice] [pid 12670] [client 192.168.0.148:60261] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
 [Sat Nov 02 10:42:16.089243 2019] [php7:notice] [pid 12670] [client 192.168.0.148:60261] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:22:30.010063 2019] [php7:notice] [pid 24506] [client 192.168.0.148:60484] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:22:30.024332 2019] [php7:notice] [pid 24506] [client 192.168.0.148:60484] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'myegorie_wptest'@'localhost' (using password: YES) in /var/www/eltec.online.local/SE/model/database.php:15\nStack trace:\n#0 /var/www/eltec.online.local/SE/model/database.php(15): PDO->__construct('mysql:host=loca...', 'myegorie_wptest', 'Rr1@fe5D2', Array)\n#1 /var/www/eltec.online.local/priceDisToEmail/price.php(2): require_once('/var/www/eltec....')\n#2 {main}\n  thrown in /var/www/eltec.online.local/SE/model/database.php on line 15
+[Mon Nov 04 09:24:17.302125 2019] [php7:notice] [pid 24503] [client 192.168.0.148:60589] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:24:53.938676 2019] [php7:notice] [pid 24504] [client 192.168.0.148:60610] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:24:55.957572 2019] [php7:notice] [pid 24504] [client 192.168.0.148:60610] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:24:57.175409 2019] [php7:notice] [pid 24504] [client 192.168.0.148:60610] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:25:43.634617 2019] [php7:notice] [pid 24506] [client 192.168.0.148:60640] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:30:30.775457 2019] [php7:notice] [pid 24503] [client 192.168.0.148:61020] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:30:33.051873 2019] [php7:notice] [pid 24503] [client 192.168.0.148:61020] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:30:34.804873 2019] [php7:notice] [pid 24503] [client 192.168.0.148:61020] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:31:10.141644 2019] [php7:notice] [pid 24504] [client 192.168.0.148:61043] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:31:40.442483 2019] [php7:notice] [pid 24506] [client 192.168.0.148:61063] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:32:29.873880 2019] [php7:notice] [pid 24503] [client 192.168.0.148:61092] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:32:50.003661 2019] [php7:notice] [pid 24504] [client 192.168.0.148:61103] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:32:50.238288 2019] [php7:notice] [pid 24506] [client 192.168.0.148:61105] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:32:50.239430 2019] [php7:notice] [pid 25169] [client 192.168.0.148:61106] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:32:50.239666 2019] [php7:notice] [pid 24503] [client 192.168.0.148:61107] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:32:50.240352 2019] [php7:notice] [pid 24505] [client 192.168.0.148:61108] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:32:50.243820 2019] [php7:notice] [pid 24502] [client 192.168.0.148:61104] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:32:50.244177 2019] [php7:notice] [pid 24504] [client 192.168.0.148:61103] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:32:50.364119 2019] [php7:notice] [pid 24506] [client 192.168.0.148:61105] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:32:50.457253 2019] [php7:notice] [pid 24503] [client 192.168.0.148:61107] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:32:59.287094 2019] [php7:notice] [pid 25176] [client 192.168.0.148:61112] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:32:59.404875 2019] [php7:notice] [pid 25176] [client 192.168.0.148:61112] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:32:59.632361 2019] [php7:notice] [pid 25176] [client 192.168.0.148:61112] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:32:59.634672 2019] [php7:notice] [pid 25177] [client 192.168.0.148:61113] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:32:59.639952 2019] [php7:notice] [pid 25178] [client 192.168.0.148:61115] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:32:59.640790 2019] [php7:notice] [pid 25179] [client 192.168.0.148:61116] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:32:59.641070 2019] [php7:notice] [pid 24504] [client 192.168.0.148:61117] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:32:59.641276 2019] [php7:notice] [pid 24505] [client 192.168.0.148:61118] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:32:59.738288 2019] [php7:notice] [pid 25176] [client 192.168.0.148:61112] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:32:59.807616 2019] [php7:notice] [pid 25177] [client 192.168.0.148:61113] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:33:00.320805 2019] [php7:notice] [pid 25177] [client 192.168.0.148:61113] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:33:00.399518 2019] [php7:notice] [pid 25176] [client 192.168.0.148:61112] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:33:07.163278 2019] [php7:notice] [pid 24502] [client 192.168.0.148:61125] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:33:12.142342 2019] [php7:notice] [pid 24502] [client 192.168.0.148:61125] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:33:12.542528 2019] [php7:notice] [pid 24502] [client 192.168.0.148:61125] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:33:12.668111 2019] [php7:notice] [pid 24502] [client 192.168.0.148:61125] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:33:14.794780 2019] [php7:notice] [pid 24502] [client 192.168.0.148:61125] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:33:15.154010 2019] [php7:notice] [pid 24502] [client 192.168.0.148:61125] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:33:17.546469 2019] [php7:notice] [pid 24502] [client 192.168.0.148:61125] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:33:17.787804 2019] [php7:notice] [pid 24502] [client 192.168.0.148:61125] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:33:17.878109 2019] [php7:notice] [pid 24502] [client 192.168.0.148:61125] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:33:22.232157 2019] [php7:notice] [pid 24502] [client 192.168.0.148:61125] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:33:26.365336 2019] [php7:notice] [pid 24502] [client 192.168.0.148:61125] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:33:26.658271 2019] [php7:notice] [pid 24502] [client 192.168.0.148:61125] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:33:26.816058 2019] [php7:notice] [pid 24502] [client 192.168.0.148:61125] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:33:58.545554 2019] [php7:notice] [pid 24505] [client 192.168.0.148:61198] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:33:58.767445 2019] [php7:notice] [pid 24505] [client 192.168.0.148:61198] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:33:58.787455 2019] [php7:notice] [pid 24504] [client 192.168.0.148:61199] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:34:01.911799 2019] [php7:notice] [pid 24504] [client 192.168.0.148:61199] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:34:05.641493 2019] [php7:notice] [pid 24504] [client 192.168.0.148:61199] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:34:05.803400 2019] [php7:notice] [pid 24504] [client 192.168.0.148:61199] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:34:05.812477 2019] [php7:notice] [pid 25179] [client 192.168.0.148:61205] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:34:07.536767 2019] [php7:notice] [pid 25179] [client 192.168.0.148:61205] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:34:09.339235 2019] [php7:notice] [pid 25179] [client 192.168.0.148:61205] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:34:09.551918 2019] [php7:notice] [pid 25179] [client 192.168.0.148:61205] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:34:09.556181 2019] [php7:notice] [pid 24504] [client 192.168.0.148:61199] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:34:11.038354 2019] [php7:notice] [pid 24504] [client 192.168.0.148:61199] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:34:15.566789 2019] [php7:notice] [pid 24504] [client 192.168.0.148:61199] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:35:24.848212 2019] [php7:notice] [pid 25177] [client 192.168.0.148:61255] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:35:27.437577 2019] [php7:notice] [pid 25177] [client 192.168.0.148:61255] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:39:49.551675 2019] [php7:notice] [pid 24506] [client 192.168.0.148:61463] PHP Parse error:  syntax error, unexpected ')' in /var/www/eltec.online.local/priceDisToEmail/price.php on line 7
+[Mon Nov 04 09:40:05.600775 2019] [php7:notice] [pid 24503] [client 192.168.0.148:61483] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:42:10.660289 2019] [php7:notice] [pid 24505] [client 192.168.0.148:61613] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:42:13.048851 2019] [php7:notice] [pid 24505] [client 192.168.0.148:61613] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:42:57.346965 2019] [php7:notice] [pid 24504] [client 192.168.0.148:61638] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:42:58.706814 2019] [php7:notice] [pid 24504] [client 192.168.0.148:61638] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:42:59.789459 2019] [php7:notice] [pid 24504] [client 192.168.0.148:61638] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:43:54.967633 2019] [php7:notice] [pid 25177] [client 192.168.0.148:61715] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:44:24.265579 2019] [php7:notice] [pid 24506] [client 192.168.0.148:61738] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:45:47.176379 2019] [php7:notice] [pid 24503] [client 192.168.0.148:61806] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:46:23.503284 2019] [php7:notice] [pid 24505] [client 192.168.0.148:61828] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:46:25.198026 2019] [php7:notice] [pid 24505] [client 192.168.0.148:61828] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:47:49.165224 2019] [php7:notice] [pid 24504] [client 192.168.0.148:61875] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:53:00.118438 2019] [php7:notice] [pid 25177] [client 192.168.0.148:62299] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:54:53.908664 2019] [php7:notice] [pid 24506] [client 192.168.0.148:62475] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:54:53.961273 2019] [php7:notice] [pid 24506] [client 192.168.0.148:62475] PHP Warning:  file_put_contents(result.csv): failed to open stream: Text file busy in /var/www/eltec.online.local/priceDisToEmail/price.php on line 12
+[Mon Nov 04 09:54:53.961393 2019] [php7:notice] [pid 24506] [client 192.168.0.148:62475] PHP Stack trace:
+[Mon Nov 04 09:54:53.961474 2019] [php7:notice] [pid 24506] [client 192.168.0.148:62475] PHP   1. {main}() /var/www/eltec.online.local/priceDisToEmail/price.php:0
+[Mon Nov 04 09:54:53.961548 2019] [php7:notice] [pid 24506] [client 192.168.0.148:62475] PHP   2. file_put_contents(*uninitialized*, *uninitialized*) /var/www/eltec.online.local/priceDisToEmail/price.php:12
+[Mon Nov 04 09:55:10.024463 2019] [php7:notice] [pid 24503] [client 192.168.0.148:62496] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:56:56.824547 2019] [php7:notice] [pid 24505] [client 192.168.0.148:62605] PHP Parse error:  syntax error, unexpected 'implode' (T_STRING) in /var/www/eltec.online.local/priceDisToEmail/price.php on line 9
+[Mon Nov 04 09:57:29.342423 2019] [php7:notice] [pid 24504] [client 192.168.0.148:62641] PHP Parse error:  syntax error, unexpected 'implode' (T_STRING) in /var/www/eltec.online.local/priceDisToEmail/price.php on line 9
+[Mon Nov 04 09:57:30.425990 2019] [php7:notice] [pid 24504] [client 192.168.0.148:62641] PHP Parse error:  syntax error, unexpected 'implode' (T_STRING) in /var/www/eltec.online.local/priceDisToEmail/price.php on line 9
+[Mon Nov 04 09:58:05.462277 2019] [php7:notice] [pid 25177] [client 192.168.0.148:62672] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:58:13.459880 2019] [php7:notice] [pid 25176] [client 192.168.0.148:62685] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:58:13.556472 2019] [php7:notice] [pid 25176] [client 192.168.0.148:62685] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:58:13.774215 2019] [php7:notice] [pid 25176] [client 192.168.0.148:62685] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:58:13.783867 2019] [php7:notice] [pid 24506] [client 192.168.0.148:62686] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:58:13.887347 2019] [php7:notice] [pid 25176] [client 192.168.0.148:62685] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:58:13.941718 2019] [php7:notice] [pid 24506] [client 192.168.0.148:62686] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:58:14.024456 2019] [php7:notice] [pid 25176] [client 192.168.0.148:62685] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:58:14.142860 2019] [php7:notice] [pid 24506] [client 192.168.0.148:62686] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:58:14.224697 2019] [php7:notice] [pid 25176] [client 192.168.0.148:62685] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:58:14.288570 2019] [php7:notice] [pid 24506] [client 192.168.0.148:62686] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 09:59:15.225848 2019] [php7:notice] [pid 25169] [client 192.168.0.148:62759] PHP Parse error:  syntax error, unexpected 'implode' (T_STRING) in /var/www/eltec.online.local/priceDisToEmail/price.php on line 9
+[Mon Nov 04 09:59:16.085085 2019] [php7:notice] [pid 25169] [client 192.168.0.148:62759] PHP Parse error:  syntax error, unexpected 'implode' (T_STRING) in /var/www/eltec.online.local/priceDisToEmail/price.php on line 9
+[Mon Nov 04 09:59:31.634409 2019] [php7:notice] [pid 24502] [client 192.168.0.148:62778] PHP Parse error:  syntax error, unexpected 'implode' (T_STRING) in /var/www/eltec.online.local/priceDisToEmail/price.php on line 9
+[Mon Nov 04 10:01:09.932078 2019] [php7:notice] [pid 25179] [client 192.168.0.148:62970] PHP Parse error:  syntax error, unexpected 'implode' (T_STRING) in /var/www/eltec.online.local/priceDisToEmail/price.php on line 9
+[Mon Nov 04 10:01:11.091276 2019] [php7:notice] [pid 25179] [client 192.168.0.148:62970] PHP Parse error:  syntax error, unexpected 'implode' (T_STRING) in /var/www/eltec.online.local/priceDisToEmail/price.php on line 9
+[Mon Nov 04 10:03:22.471221 2019] [php7:notice] [pid 25178] [client 192.168.0.148:63098] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 10:03:22.520314 2019] [php7:notice] [pid 25178] [client 192.168.0.148:63098] PHP Warning:  file_put_contents(result.csv): failed to open stream: Text file busy in /var/www/eltec.online.local/priceDisToEmail/price.php on line 13
+[Mon Nov 04 10:03:22.520438 2019] [php7:notice] [pid 25178] [client 192.168.0.148:63098] PHP Stack trace:
+[Mon Nov 04 10:03:22.520510 2019] [php7:notice] [pid 25178] [client 192.168.0.148:63098] PHP   1. {main}() /var/www/eltec.online.local/priceDisToEmail/price.php:0
+[Mon Nov 04 10:03:22.520579 2019] [php7:notice] [pid 25178] [client 192.168.0.148:63098] PHP   2. file_put_contents(*uninitialized*, *uninitialized*) /var/www/eltec.online.local/priceDisToEmail/price.php:13
+[Mon Nov 04 10:03:45.302922 2019] [php7:notice] [pid 25176] [client 192.168.0.148:63167] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 10:07:02.693656 2019] [php7:notice] [pid 25169] [client 192.168.0.148:63405] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 10:07:02.764720 2019] [php7:notice] [pid 25169] [client 192.168.0.148:63405] PHP Warning:  file_put_contents(result.csv): failed to open stream: Text file busy in /var/www/eltec.online.local/priceDisToEmail/price.php on line 13
+[Mon Nov 04 10:07:02.764892 2019] [php7:notice] [pid 25169] [client 192.168.0.148:63405] PHP Stack trace:
+[Mon Nov 04 10:07:02.764995 2019] [php7:notice] [pid 25169] [client 192.168.0.148:63405] PHP   1. {main}() /var/www/eltec.online.local/priceDisToEmail/price.php:0
+[Mon Nov 04 10:07:02.765090 2019] [php7:notice] [pid 25169] [client 192.168.0.148:63405] PHP   2. file_put_contents(*uninitialized*, *uninitialized*) /var/www/eltec.online.local/priceDisToEmail/price.php:13
+[Mon Nov 04 10:07:12.698884 2019] [php7:notice] [pid 24502] [client 192.168.0.148:63420] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 10:09:07.231892 2019] [php7:notice] [pid 25179] [client 192.168.0.148:63557] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 10:10:39.295488 2019] [php7:notice] [pid 25176] [client 192.168.0.148:63748] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 10:10:39.355811 2019] [php7:notice] [pid 25176] [client 192.168.0.148:63748] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /var/www/eltec.online.local/priceDisToEmail/price.php:15\nStack trace:\n#0 {main}\n  thrown in /var/www/eltec.online.local/priceDisToEmail/price.php on line 15
+[Mon Nov 04 10:10:50.878848 2019] [php7:notice] [pid 25169] [client 192.168.0.148:63759] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 10:10:50.927821 2019] [php7:notice] [pid 25169] [client 192.168.0.148:63759] PHP Fatal error:  Uncaught Error: Class 'PHPMailer' not found in /var/www/eltec.online.local/priceDisToEmail/price.php:15\nStack trace:\n#0 {main}\n  thrown in /var/www/eltec.online.local/priceDisToEmail/price.php on line 15
+[Mon Nov 04 10:12:29.919445 2019] [php7:notice] [pid 24502] [client 192.168.0.148:63856] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 10:12:29.993269 2019] [php7:notice] [pid 24502] [client 192.168.0.148:63856] PHP Notice:  Undefined index: name in /var/www/eltec.online.local/priceDisToEmail/price.php on line 20
+[Mon Nov 04 10:12:29.993463 2019] [php7:notice] [pid 24502] [client 192.168.0.148:63856] PHP Stack trace:
+[Mon Nov 04 10:12:29.993543 2019] [php7:notice] [pid 24502] [client 192.168.0.148:63856] PHP   1. {main}() /var/www/eltec.online.local/priceDisToEmail/price.php:0
+[Mon Nov 04 10:12:29.994077 2019] [php7:notice] [pid 24502] [client 192.168.0.148:63856] PHP Notice:  Undefined index: email in /var/www/eltec.online.local/priceDisToEmail/price.php on line 20
+[Mon Nov 04 10:12:29.994146 2019] [php7:notice] [pid 24502] [client 192.168.0.148:63856] PHP Stack trace:
+[Mon Nov 04 10:12:29.994221 2019] [php7:notice] [pid 24502] [client 192.168.0.148:63856] PHP   1. {main}() /var/www/eltec.online.local/priceDisToEmail/price.php:0
+[Mon Nov 04 10:12:29.995879 2019] [php7:notice] [pid 24502] [client 192.168.0.148:63856] PHP Notice:  Undefined variable: phone in /var/www/eltec.online.local/priceDisToEmail/price.php on line 45
+[Mon Nov 04 10:12:29.995987 2019] [php7:notice] [pid 24502] [client 192.168.0.148:63856] PHP Stack trace:
+[Mon Nov 04 10:12:29.996045 2019] [php7:notice] [pid 24502] [client 192.168.0.148:63856] PHP   1. {main}() /var/www/eltec.online.local/priceDisToEmail/price.php:0
+[Mon Nov 04 10:12:29.996659 2019] [php7:notice] [pid 24502] [client 192.168.0.148:63856] PHP Notice:  Undefined variable: name in /var/www/eltec.online.local/priceDisToEmail/price.php on line 46
+[Mon Nov 04 10:12:29.996830 2019] [php7:notice] [pid 24502] [client 192.168.0.148:63856] PHP Stack trace:
+[Mon Nov 04 10:12:29.996906 2019] [php7:notice] [pid 24502] [client 192.168.0.148:63856] PHP   1. {main}() /var/www/eltec.online.local/priceDisToEmail/price.php:0
+[Mon Nov 04 10:12:29.997393 2019] [php7:notice] [pid 24502] [client 192.168.0.148:63856] PHP Notice:  Undefined variable: region in /var/www/eltec.online.local/priceDisToEmail/price.php on line 47
+[Mon Nov 04 10:12:29.997471 2019] [php7:notice] [pid 24502] [client 192.168.0.148:63856] PHP Stack trace:
+[Mon Nov 04 10:12:29.997542 2019] [php7:notice] [pid 24502] [client 192.168.0.148:63856] PHP   1. {main}() /var/www/eltec.online.local/priceDisToEmail/price.php:0
+[Mon Nov 04 10:13:23.314824 2019] [php7:notice] [pid 25179] [client 192.168.0.148:63910] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 10:13:23.364997 2019] [php7:notice] [pid 25179] [client 192.168.0.148:63910] PHP Notice:  Undefined variable: phone in /var/www/eltec.online.local/priceDisToEmail/price.php on line 44
+[Mon Nov 04 10:13:23.365280 2019] [php7:notice] [pid 25179] [client 192.168.0.148:63910] PHP Stack trace:
+[Mon Nov 04 10:13:23.365408 2019] [php7:notice] [pid 25179] [client 192.168.0.148:63910] PHP   1. {main}() /var/www/eltec.online.local/priceDisToEmail/price.php:0
+[Mon Nov 04 10:13:23.365932 2019] [php7:notice] [pid 25179] [client 192.168.0.148:63910] PHP Notice:  Undefined variable: name in /var/www/eltec.online.local/priceDisToEmail/price.php on line 45
+[Mon Nov 04 10:13:23.366060 2019] [php7:notice] [pid 25179] [client 192.168.0.148:63910] PHP Stack trace:
+[Mon Nov 04 10:13:23.366142 2019] [php7:notice] [pid 25179] [client 192.168.0.148:63910] PHP   1. {main}() /var/www/eltec.online.local/priceDisToEmail/price.php:0
+[Mon Nov 04 10:13:23.366844 2019] [php7:notice] [pid 25179] [client 192.168.0.148:63910] PHP Notice:  Undefined variable: region in /var/www/eltec.online.local/priceDisToEmail/price.php on line 46
+[Mon Nov 04 10:13:23.367109 2019] [php7:notice] [pid 25179] [client 192.168.0.148:63910] PHP Stack trace:
+[Mon Nov 04 10:13:23.367216 2019] [php7:notice] [pid 25179] [client 192.168.0.148:63910] PHP   1. {main}() /var/www/eltec.online.local/priceDisToEmail/price.php:0
+[Mon Nov 04 10:15:42.305936 2019] [php7:notice] [pid 25178] [client 192.168.0.148:64112] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 10:19:52.979197 2019] [php7:notice] [pid 25176] [client 192.168.0.148:64418] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 10:23:58.118491 2019] [php7:notice] [pid 25169] [client 192.168.0.148:65001] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 10:25:28.291395 2019] [php7:notice] [pid 24502] [client 192.168.0.148:65107] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 10:29:17.443285 2019] [php7:notice] [pid 25179] [client 192.168.0.148:65480] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 11:05:07.163510 2019] [php7:notice] [pid 25178] [client 192.168.0.148:56308] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:35:03.941380 2019] [php7:notice] [pid 25169] [client 192.168.0.148:49729] PHP Parse error:  syntax error, unexpected '$cell' (T_VARIABLE) in /var/www/eltec.online.local/SE/esel.php on line 134
+[Mon Nov 04 15:35:16.330964 2019] [php7:notice] [pid 24502] [client 192.168.0.148:49741] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:35:54.241684 2019] [php7:notice] [pid 25179] [client 192.168.0.148:49778] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:35:55.609657 2019] [php7:notice] [pid 25179] [client 192.168.0.148:49778] PHP Warning:  imap_fetchbody(): Bad message number in /var/www/eltec.online.local/src/Email/resiveMail.php on line 42
+[Mon Nov 04 15:35:55.609830 2019] [php7:notice] [pid 25179] [client 192.168.0.148:49778] PHP Stack trace:
+[Mon Nov 04 15:35:55.609912 2019] [php7:notice] [pid 25179] [client 192.168.0.148:49778] PHP   1. {main}() /var/www/eltec.online.local/elevel/parcepost.php:0
+[Mon Nov 04 15:35:55.609994 2019] [php7:notice] [pid 25179] [client 192.168.0.148:49778] PHP   2. Ivliev\\Email\\resiveMail->reciveAttachment($from = *uninitialized*, $date = *uninitialized*) /var/www/eltec.online.local/elevel/parcepost.php:8
+[Mon Nov 04 15:35:55.610068 2019] [php7:notice] [pid 25179] [client 192.168.0.148:49778] PHP   3. imap_fetchbody(*uninitialized*, *uninitialized*, *uninitialized*) /var/www/eltec.online.local/src/Email/resiveMail.php:42
+[Mon Nov 04 15:35:55.610316 2019] [php7:notice] [pid 25179] [client 192.168.0.148:49778] PHP Warning:  imap_fetchbody(): Bad message number in /var/www/eltec.online.local/src/Email/resiveMail.php on line 47
+[Mon Nov 04 15:35:55.610395 2019] [php7:notice] [pid 25179] [client 192.168.0.148:49778] PHP Stack trace:
+[Mon Nov 04 15:35:55.610457 2019] [php7:notice] [pid 25179] [client 192.168.0.148:49778] PHP   1. {main}() /var/www/eltec.online.local/elevel/parcepost.php:0
+[Mon Nov 04 15:35:55.610516 2019] [php7:notice] [pid 25179] [client 192.168.0.148:49778] PHP   2. Ivliev\\Email\\resiveMail->reciveAttachment($from = *uninitialized*, $date = *uninitialized*) /var/www/eltec.online.local/elevel/parcepost.php:8
+[Mon Nov 04 15:35:55.610574 2019] [php7:notice] [pid 25179] [client 192.168.0.148:49778] PHP   3. imap_fetchbody(*uninitialized*, *uninitialized*, *uninitialized*) /var/www/eltec.online.local/src/Email/resiveMail.php:47
+[Mon Nov 04 15:35:55.610907 2019] [php7:notice] [pid 25179] [client 192.168.0.148:49778] PHP Notice:  Trying to get property 'parts' of non-object in /var/www/eltec.online.local/src/Email/resiveMail.php on line 54
+[Mon Nov 04 15:35:55.611010 2019] [php7:notice] [pid 25179] [client 192.168.0.148:49778] PHP Stack trace:
+[Mon Nov 04 15:35:55.611087 2019] [php7:notice] [pid 25179] [client 192.168.0.148:49778] PHP   1. {main}() /var/www/eltec.online.local/elevel/parcepost.php:0
+[Mon Nov 04 15:35:55.611153 2019] [php7:notice] [pid 25179] [client 192.168.0.148:49778] PHP   2. Ivliev\\Email\\resiveMail->reciveAttachment($from = *uninitialized*, $date = *uninitialized*) /var/www/eltec.online.local/elevel/parcepost.php:8
+[Mon Nov 04 15:35:55.616311 2019] [php7:notice] [pid 25179] [client 192.168.0.148:49778] PHP Warning:  ZipArchive::open(): Empty string as source in /var/www/eltec.online.local/elevel/parcepost.php on line 12
+[Mon Nov 04 15:35:55.616415 2019] [php7:notice] [pid 25179] [client 192.168.0.148:49778] PHP Stack trace:
+[Mon Nov 04 15:35:55.616465 2019] [php7:notice] [pid 25179] [client 192.168.0.148:49778] PHP   1. {main}() /var/www/eltec.online.local/elevel/parcepost.php:0
+[Mon Nov 04 15:35:55.616610 2019] [php7:notice] [pid 25179] [client 192.168.0.148:49778] PHP   2. ZipArchive->open(*uninitialized*) /var/www/eltec.online.local/elevel/parcepost.php:12
+[Mon Nov 04 15:35:55.617189 2019] [php7:notice] [pid 25179] [client 192.168.0.148:49778] PHP Warning:  ZipArchive::getFromName(): Invalid or uninitialized Zip object in /var/www/eltec.online.local/elevel/parcepost.php on line 13
+[Mon Nov 04 15:35:55.617297 2019] [php7:notice] [pid 25179] [client 192.168.0.148:49778] PHP Stack trace:
+[Mon Nov 04 15:35:55.617358 2019] [php7:notice] [pid 25179] [client 192.168.0.148:49778] PHP   1. {main}() /var/www/eltec.online.local/elevel/parcepost.php:0
+[Mon Nov 04 15:35:55.617418 2019] [php7:notice] [pid 25179] [client 192.168.0.148:49778] PHP   2. ZipArchive->getFromName(*uninitialized*) /var/www/eltec.online.local/elevel/parcepost.php:13
+[Mon Nov 04 15:35:55.617787 2019] [php7:notice] [pid 25179] [client 192.168.0.148:49778] PHP Warning:  ZipArchive::getFromName(): Invalid or uninitialized Zip object in /var/www/eltec.online.local/elevel/parcepost.php on line 15
+[Mon Nov 04 15:35:55.617865 2019] [php7:notice] [pid 25179] [client 192.168.0.148:49778] PHP Stack trace:
+[Mon Nov 04 15:35:55.617922 2019] [php7:notice] [pid 25179] [client 192.168.0.148:49778] PHP   1. {main}() /var/www/eltec.online.local/elevel/parcepost.php:0
+[Mon Nov 04 15:35:55.617983 2019] [php7:notice] [pid 25179] [client 192.168.0.148:49778] PHP   2. ZipArchive->getFromName(*uninitialized*) /var/www/eltec.online.local/elevel/parcepost.php:15
+[Mon Nov 04 15:35:57.235684 2019] [php7:notice] [pid 25179] [client 192.168.0.148:49778] PHP Notice:  Trying to get property 'sheetData' of non-object in /var/www/eltec.online.local/elevel/parcepost.php on line 22
+[Mon Nov 04 15:35:57.235841 2019] [php7:notice] [pid 25179] [client 192.168.0.148:49778] PHP Stack trace:
+[Mon Nov 04 15:35:57.235953 2019] [php7:notice] [pid 25179] [client 192.168.0.148:49778] PHP   1. {main}() /var/www/eltec.online.local/elevel/parcepost.php:0
+[Mon Nov 04 15:36:14.120808 2019] [php7:notice] [pid 25178] [client 192.168.0.148:49800] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:36:18.182463 2019] [php7:notice] [pid 25178] [client 192.168.0.148:49800] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:36:19.144965 2019] [php7:notice] [pid 25178] [client 192.168.0.148:49800] PHP Warning:  imap_fetchbody(): Bad message number in /var/www/eltec.online.local/src/Email/resiveMail.php on line 42
+[Mon Nov 04 15:36:19.145101 2019] [php7:notice] [pid 25178] [client 192.168.0.148:49800] PHP Stack trace:
+[Mon Nov 04 15:36:19.145180 2019] [php7:notice] [pid 25178] [client 192.168.0.148:49800] PHP   1. {main}() /var/www/eltec.online.local/elevel/parcepost.php:0
+[Mon Nov 04 15:36:19.145286 2019] [php7:notice] [pid 25178] [client 192.168.0.148:49800] PHP   2. Ivliev\\Email\\resiveMail->reciveAttachment($from = *uninitialized*, $date = *uninitialized*) /var/www/eltec.online.local/elevel/parcepost.php:8
+[Mon Nov 04 15:36:19.145394 2019] [php7:notice] [pid 25178] [client 192.168.0.148:49800] PHP   3. imap_fetchbody(*uninitialized*, *uninitialized*, *uninitialized*) /var/www/eltec.online.local/src/Email/resiveMail.php:42
+[Mon Nov 04 15:36:19.145622 2019] [php7:notice] [pid 25178] [client 192.168.0.148:49800] PHP Warning:  imap_fetchbody(): Bad message number in /var/www/eltec.online.local/src/Email/resiveMail.php on line 47
+[Mon Nov 04 15:36:19.145700 2019] [php7:notice] [pid 25178] [client 192.168.0.148:49800] PHP Stack trace:
+[Mon Nov 04 15:36:19.145771 2019] [php7:notice] [pid 25178] [client 192.168.0.148:49800] PHP   1. {main}() /var/www/eltec.online.local/elevel/parcepost.php:0
+[Mon Nov 04 15:36:19.145847 2019] [php7:notice] [pid 25178] [client 192.168.0.148:49800] PHP   2. Ivliev\\Email\\resiveMail->reciveAttachment($from = *uninitialized*, $date = *uninitialized*) /var/www/eltec.online.local/elevel/parcepost.php:8
+[Mon Nov 04 15:36:19.145918 2019] [php7:notice] [pid 25178] [client 192.168.0.148:49800] PHP   3. imap_fetchbody(*uninitialized*, *uninitialized*, *uninitialized*) /var/www/eltec.online.local/src/Email/resiveMail.php:47
+[Mon Nov 04 15:36:19.146158 2019] [php7:notice] [pid 25178] [client 192.168.0.148:49800] PHP Notice:  Trying to get property 'parts' of non-object in /var/www/eltec.online.local/src/Email/resiveMail.php on line 54
+[Mon Nov 04 15:36:19.146275 2019] [php7:notice] [pid 25178] [client 192.168.0.148:49800] PHP Stack trace:
+[Mon Nov 04 15:36:19.146356 2019] [php7:notice] [pid 25178] [client 192.168.0.148:49800] PHP   1. {main}() /var/www/eltec.online.local/elevel/parcepost.php:0
+[Mon Nov 04 15:36:19.146436 2019] [php7:notice] [pid 25178] [client 192.168.0.148:49800] PHP   2. Ivliev\\Email\\resiveMail->reciveAttachment($from = *uninitialized*, $date = *uninitialized*) /var/www/eltec.online.local/elevel/parcepost.php:8
+[Mon Nov 04 15:36:19.151772 2019] [php7:notice] [pid 25178] [client 192.168.0.148:49800] PHP Warning:  ZipArchive::open(): Empty string as source in /var/www/eltec.online.local/elevel/parcepost.php on line 12
+[Mon Nov 04 15:36:19.151929 2019] [php7:notice] [pid 25178] [client 192.168.0.148:49800] PHP Stack trace:
+[Mon Nov 04 15:36:19.152111 2019] [php7:notice] [pid 25178] [client 192.168.0.148:49800] PHP   1. {main}() /var/www/eltec.online.local/elevel/parcepost.php:0
+[Mon Nov 04 15:36:19.152216 2019] [php7:notice] [pid 25178] [client 192.168.0.148:49800] PHP   2. ZipArchive->open(*uninitialized*) /var/www/eltec.online.local/elevel/parcepost.php:12
+[Mon Nov 04 15:36:19.152874 2019] [php7:notice] [pid 25178] [client 192.168.0.148:49800] PHP Warning:  ZipArchive::getFromName(): Invalid or uninitialized Zip object in /var/www/eltec.online.local/elevel/parcepost.php on line 13
+[Mon Nov 04 15:36:19.152989 2019] [php7:notice] [pid 25178] [client 192.168.0.148:49800] PHP Stack trace:
+[Mon Nov 04 15:36:19.153058 2019] [php7:notice] [pid 25178] [client 192.168.0.148:49800] PHP   1. {main}() /var/www/eltec.online.local/elevel/parcepost.php:0
+[Mon Nov 04 15:36:19.153142 2019] [php7:notice] [pid 25178] [client 192.168.0.148:49800] PHP   2. ZipArchive->getFromName(*uninitialized*) /var/www/eltec.online.local/elevel/parcepost.php:13
+[Mon Nov 04 15:36:19.153472 2019] [php7:notice] [pid 25178] [client 192.168.0.148:49800] PHP Warning:  ZipArchive::getFromName(): Invalid or uninitialized Zip object in /var/www/eltec.online.local/elevel/parcepost.php on line 15
+[Mon Nov 04 15:36:19.153604 2019] [php7:notice] [pid 25178] [client 192.168.0.148:49800] PHP Stack trace:
+[Mon Nov 04 15:36:19.153710 2019] [php7:notice] [pid 25178] [client 192.168.0.148:49800] PHP   1. {main}() /var/www/eltec.online.local/elevel/parcepost.php:0
+[Mon Nov 04 15:36:19.153783 2019] [php7:notice] [pid 25178] [client 192.168.0.148:49800] PHP   2. ZipArchive->getFromName(*uninitialized*) /var/www/eltec.online.local/elevel/parcepost.php:15
+[Mon Nov 04 15:36:19.283230 2019] [php7:notice] [pid 25178] [client 192.168.0.148:49800] PHP Notice:  Trying to get property 'sheetData' of non-object in /var/www/eltec.online.local/elevel/parcepost.php on line 22
+[Mon Nov 04 15:36:19.283379 2019] [php7:notice] [pid 25178] [client 192.168.0.148:49800] PHP Stack trace:
+[Mon Nov 04 15:36:19.283484 2019] [php7:notice] [pid 25178] [client 192.168.0.148:49800] PHP   1. {main}() /var/www/eltec.online.local/elevel/parcepost.php:0
+[Mon Nov 04 15:36:35.375895 2019] [php7:notice] [pid 25176] [client 192.168.0.148:49825] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:36:56.031931 2019] [php7:notice] [pid 25176] [client 192.168.0.148:49825] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:37:10.736594 2019] [php7:notice] [pid 25176] [client 192.168.0.148:49825] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:37:13.058006 2019] [php7:notice] [pid 25176] [client 192.168.0.148:49825] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\\xCA\\xEE\\xE4' for column 'artikle' at row 12 in /var/www/eltec.online.local/SE/model/database.php:51\nStack trace:\n#0 /var/www/eltec.online.local/SE/model/database.php(51): PDOStatement->execute(Array)\n#1 /var/www/eltec.online.local/SE/esel.php(147): insertProduct('\\xD0\\x9E\\xD0\\x9E\\xD0\\x9E \\xC2\\xAB\\xD0\\x95\\xD0\\xA1 \\xD0...', Array)\n#2 {main}\n  thrown in /var/www/eltec.online.local/SE/model/database.php on line 51
+[Mon Nov 04 15:49:18.011322 2019] [php7:notice] [pid 24504] [client 192.168.0.148:50958] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:49:20.481594 2019] [php7:notice] [pid 24504] [client 192.168.0.148:50958] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\\xCC\\xE5\\xF5\\xE0\\xED\\xE8...' for column 'name' at row 12 in /var/www/eltec.online.local/SE/model/database.php:51\nStack trace:\n#0 /var/www/eltec.online.local/SE/model/database.php(51): PDOStatement->execute(Array)\n#1 /var/www/eltec.online.local/SE/esel.php(148): insertProduct('\\xD0\\x9E\\xD0\\x9E\\xD0\\x9E \\xC2\\xAB\\xD0\\x95\\xD0\\xA1 \\xD0...', Array)\n#2 {main}\n  thrown in /var/www/eltec.online.local/SE/model/database.php on line 51
+[Mon Nov 04 15:51:28.544054 2019] [php7:notice] [pid 25177] [client 192.168.0.148:51095] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:28.968875 2019] [php7:notice] [pid 25177] [client 192.168.0.148:51095] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:28.982141 2019] [php7:notice] [pid 24506] [client 192.168.0.148:51096] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:28.982470 2019] [php7:notice] [pid 25169] [client 192.168.0.148:51099] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:28.982730 2019] [php7:notice] [pid 25176] [client 192.168.0.148:51100] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:28.982936 2019] [php7:notice] [pid 24503] [client 192.168.0.148:51101] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:28.983161 2019] [php7:notice] [pid 25179] [client 192.168.0.148:51102] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:29.229867 2019] [php7:notice] [pid 25177] [client 192.168.0.148:51095] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:29.278380 2019] [php7:notice] [pid 24506] [client 192.168.0.148:51096] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:29.430588 2019] [php7:notice] [pid 25177] [client 192.168.0.148:51095] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:29.479596 2019] [php7:notice] [pid 24506] [client 192.168.0.148:51096] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:29.631405 2019] [php7:notice] [pid 25177] [client 192.168.0.148:51095] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:29.680527 2019] [php7:notice] [pid 24506] [client 192.168.0.148:51096] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:29.832207 2019] [php7:notice] [pid 25177] [client 192.168.0.148:51095] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:29.881204 2019] [php7:notice] [pid 24506] [client 192.168.0.148:51096] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:30.034682 2019] [php7:notice] [pid 25177] [client 192.168.0.148:51095] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:30.092403 2019] [php7:notice] [pid 24506] [client 192.168.0.148:51096] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:30.131651 2019] [php7:notice] [pid 25169] [client 192.168.0.148:51099] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:30.332738 2019] [php7:notice] [pid 25169] [client 192.168.0.148:51099] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:30.533707 2019] [php7:notice] [pid 25169] [client 192.168.0.148:51099] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:30.734456 2019] [php7:notice] [pid 25169] [client 192.168.0.148:51099] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:31.017743 2019] [php7:notice] [pid 24503] [client 192.168.0.148:51101] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:31.219258 2019] [php7:notice] [pid 24503] [client 192.168.0.148:51101] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:31.420250 2019] [php7:notice] [pid 24503] [client 192.168.0.148:51101] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:31.620923 2019] [php7:notice] [pid 24503] [client 192.168.0.148:51101] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:31.886476 2019] [php7:notice] [pid 25179] [client 192.168.0.148:51102] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:32.087143 2019] [php7:notice] [pid 25179] [client 192.168.0.148:51102] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:32.287972 2019] [php7:notice] [pid 25179] [client 192.168.0.148:51102] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:32.488770 2019] [php7:notice] [pid 25179] [client 192.168.0.148:51102] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:32.764547 2019] [php7:notice] [pid 25176] [client 192.168.0.148:51100] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:32.797579 2019] [php7:notice] [pid 25177] [client 192.168.0.148:51095] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:32.966779 2019] [php7:notice] [pid 25176] [client 192.168.0.148:51100] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:32.998176 2019] [php7:notice] [pid 25177] [client 192.168.0.148:51095] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:33.167299 2019] [php7:notice] [pid 25176] [client 192.168.0.148:51100] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:33.199175 2019] [php7:notice] [pid 25177] [client 192.168.0.148:51095] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:33.368422 2019] [php7:notice] [pid 25176] [client 192.168.0.148:51100] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:33.400829 2019] [php7:notice] [pid 25177] [client 192.168.0.148:51095] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:33.674040 2019] [php7:notice] [pid 24506] [client 192.168.0.148:51096] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:33.874852 2019] [php7:notice] [pid 24506] [client 192.168.0.148:51096] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:34.075627 2019] [php7:notice] [pid 24506] [client 192.168.0.148:51096] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:34.276450 2019] [php7:notice] [pid 24506] [client 192.168.0.148:51096] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:39.981511 2019] [php7:notice] [pid 24505] [client 192.168.0.148:51110] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:40.252835 2019] [php7:notice] [pid 24505] [client 192.168.0.148:51110] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:40.527180 2019] [php7:notice] [pid 24505] [client 192.168.0.148:51110] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:40.728837 2019] [php7:notice] [pid 24505] [client 192.168.0.148:51110] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:40.929642 2019] [php7:notice] [pid 24505] [client 192.168.0.148:51110] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:41.214029 2019] [php7:notice] [pid 24505] [client 192.168.0.148:51110] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:41.215197 2019] [php7:notice] [pid 24504] [client 192.168.0.148:51111] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:41.229557 2019] [php7:notice] [pid 25178] [client 192.168.0.148:51115] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:41.230536 2019] [php7:notice] [pid 26872] [client 192.168.0.148:51116] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:41.234949 2019] [php7:notice] [pid 25169] [client 192.168.0.148:51118] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:41.235988 2019] [php7:notice] [pid 26873] [client 192.168.0.148:51117] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:41.484276 2019] [php7:notice] [pid 24504] [client 192.168.0.148:51111] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:41.685855 2019] [php7:notice] [pid 24504] [client 192.168.0.148:51111] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:41.886686 2019] [php7:notice] [pid 24504] [client 192.168.0.148:51111] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:42.087471 2019] [php7:notice] [pid 24504] [client 192.168.0.148:51111] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:42.299403 2019] [php7:notice] [pid 24504] [client 192.168.0.148:51111] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:42.342173 2019] [php7:notice] [pid 24505] [client 192.168.0.148:51110] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:42.381745 2019] [php7:notice] [pid 25178] [client 192.168.0.148:51115] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:42.542903 2019] [php7:notice] [pid 24505] [client 192.168.0.148:51110] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:42.583123 2019] [php7:notice] [pid 25178] [client 192.168.0.148:51115] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:42.743739 2019] [php7:notice] [pid 24505] [client 192.168.0.148:51110] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:42.784039 2019] [php7:notice] [pid 25178] [client 192.168.0.148:51115] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:42.944576 2019] [php7:notice] [pid 24505] [client 192.168.0.148:51110] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:42.984813 2019] [php7:notice] [pid 25178] [client 192.168.0.148:51115] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:43.147209 2019] [php7:notice] [pid 24505] [client 192.168.0.148:51110] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:43.258886 2019] [php7:notice] [pid 25169] [client 192.168.0.148:51118] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:43.459833 2019] [php7:notice] [pid 25169] [client 192.168.0.148:51118] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:43.660615 2019] [php7:notice] [pid 25169] [client 192.168.0.148:51118] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:43.861473 2019] [php7:notice] [pid 25169] [client 192.168.0.148:51118] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:44.147970 2019] [php7:notice] [pid 26873] [client 192.168.0.148:51117] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:44.184000 2019] [php7:notice] [pid 26872] [client 192.168.0.148:51116] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:44.350236 2019] [php7:notice] [pid 26873] [client 192.168.0.148:51117] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:44.385503 2019] [php7:notice] [pid 26872] [client 192.168.0.148:51116] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:44.551017 2019] [php7:notice] [pid 26873] [client 192.168.0.148:51117] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:44.586377 2019] [php7:notice] [pid 26872] [client 192.168.0.148:51116] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:44.751875 2019] [php7:notice] [pid 26873] [client 192.168.0.148:51117] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:44.787195 2019] [php7:notice] [pid 26872] [client 192.168.0.148:51116] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:45.050918 2019] [php7:notice] [pid 24504] [client 192.168.0.148:51111] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:45.251424 2019] [php7:notice] [pid 24504] [client 192.168.0.148:51111] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:45.452237 2019] [php7:notice] [pid 24504] [client 192.168.0.148:51111] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:45.653098 2019] [php7:notice] [pid 24504] [client 192.168.0.148:51111] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:45.900924 2019] [php7:notice] [pid 24505] [client 192.168.0.148:51110] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:46.101529 2019] [php7:notice] [pid 24505] [client 192.168.0.148:51110] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:46.302079 2019] [php7:notice] [pid 24505] [client 192.168.0.148:51110] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:46.503367 2019] [php7:notice] [pid 24505] [client 192.168.0.148:51110] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:46.848832 2019] [php7:notice] [pid 24505] [client 192.168.0.148:51110] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:46.913239 2019] [php7:notice] [pid 24504] [client 192.168.0.148:51111] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:47.123899 2019] [php7:notice] [pid 24505] [client 192.168.0.148:51110] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:47.325120 2019] [php7:notice] [pid 24505] [client 192.168.0.148:51110] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:47.525997 2019] [php7:notice] [pid 24505] [client 192.168.0.148:51110] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:56.988050 2019] [php7:notice] [pid 25179] [client 192.168.0.148:51131] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:57.339521 2019] [php7:notice] [pid 25179] [client 192.168.0.148:51131] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:57.540104 2019] [php7:notice] [pid 25179] [client 192.168.0.148:51131] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:57.740752 2019] [php7:notice] [pid 25179] [client 192.168.0.148:51131] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:58.010316 2019] [php7:notice] [pid 25179] [client 192.168.0.148:51131] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:58.013687 2019] [php7:notice] [pid 25176] [client 192.168.0.148:51132] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:58.280443 2019] [php7:notice] [pid 25179] [client 192.168.0.148:51131] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:58.481333 2019] [php7:notice] [pid 25179] [client 192.168.0.148:51131] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:58.682183 2019] [php7:notice] [pid 25179] [client 192.168.0.148:51131] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:58.940320 2019] [php7:notice] [pid 25176] [client 192.168.0.148:51132] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:59.141534 2019] [php7:notice] [pid 25176] [client 192.168.0.148:51132] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:59.342406 2019] [php7:notice] [pid 25176] [client 192.168.0.148:51132] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:51:59.543174 2019] [php7:notice] [pid 25176] [client 192.168.0.148:51132] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:57:15.148368 2019] [php7:notice] [pid 25177] [client 192.168.0.148:51517] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:57:15.438253 2019] [php7:notice] [pid 25177] [client 192.168.0.148:51517] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:57:15.638901 2019] [php7:notice] [pid 25177] [client 192.168.0.148:51517] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:57:15.839737 2019] [php7:notice] [pid 25177] [client 192.168.0.148:51517] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:57:33.327216 2019] [php7:notice] [pid 24506] [client 192.168.0.148:51541] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:57:33.618826 2019] [php7:notice] [pid 24506] [client 192.168.0.148:51541] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:57:33.819507 2019] [php7:notice] [pid 24506] [client 192.168.0.148:51541] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:57:34.020338 2019] [php7:notice] [pid 24506] [client 192.168.0.148:51541] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:57:39.246680 2019] [php7:notice] [pid 24506] [client 192.168.0.148:51541] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:57:39.539535 2019] [php7:notice] [pid 24506] [client 192.168.0.148:51541] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:57:39.739944 2019] [php7:notice] [pid 24506] [client 192.168.0.148:51541] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:57:39.940821 2019] [php7:notice] [pid 24506] [client 192.168.0.148:51541] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:57:40.204671 2019] [php7:notice] [pid 24506] [client 192.168.0.148:51541] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:57:40.464966 2019] [php7:notice] [pid 24506] [client 192.168.0.148:51541] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:57:40.665646 2019] [php7:notice] [pid 24506] [client 192.168.0.148:51541] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:57:40.866141 2019] [php7:notice] [pid 24506] [client 192.168.0.148:51541] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:57:41.067270 2019] [php7:notice] [pid 24506] [client 192.168.0.148:51541] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 15:58:02.297916 2019] [php7:notice] [pid 25178] [client 192.168.0.148:51567] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:03.375415 2019] [php7:notice] [pid 25169] [client 192.168.0.148:53798] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:03.764612 2019] [php7:notice] [pid 25169] [client 192.168.0.148:53798] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:03.965760 2019] [php7:notice] [pid 25169] [client 192.168.0.148:53798] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:04.166589 2019] [php7:notice] [pid 25169] [client 192.168.0.148:53798] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:04.509004 2019] [php7:notice] [pid 25169] [client 192.168.0.148:53798] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:04.772800 2019] [php7:notice] [pid 25169] [client 192.168.0.148:53798] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:04.973678 2019] [php7:notice] [pid 25169] [client 192.168.0.148:53798] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:05.174583 2019] [php7:notice] [pid 25169] [client 192.168.0.148:53798] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:05.375283 2019] [php7:notice] [pid 25169] [client 192.168.0.148:53798] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:05.626307 2019] [php7:notice] [pid 25169] [client 192.168.0.148:53798] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:08.499068 2019] [php7:notice] [pid 25169] [client 192.168.0.148:53798] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:08.863631 2019] [php7:notice] [pid 25169] [client 192.168.0.148:53798] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:09.064304 2019] [php7:notice] [pid 25169] [client 192.168.0.148:53798] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:09.265094 2019] [php7:notice] [pid 25169] [client 192.168.0.148:53798] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:09.559517 2019] [php7:notice] [pid 25169] [client 192.168.0.148:53798] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:09.818891 2019] [php7:notice] [pid 25169] [client 192.168.0.148:53798] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:10.019382 2019] [php7:notice] [pid 25169] [client 192.168.0.148:53798] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:10.219861 2019] [php7:notice] [pid 25169] [client 192.168.0.148:53798] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:10.421015 2019] [php7:notice] [pid 25169] [client 192.168.0.148:53798] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:10.646654 2019] [php7:notice] [pid 25169] [client 192.168.0.148:53798] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:23.614181 2019] [php7:notice] [pid 26873] [client 192.168.0.148:53820] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:23.991049 2019] [php7:notice] [pid 26873] [client 192.168.0.148:53820] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:24.191708 2019] [php7:notice] [pid 26873] [client 192.168.0.148:53820] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:24.392435 2019] [php7:notice] [pid 26873] [client 192.168.0.148:53820] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:24.672744 2019] [php7:notice] [pid 26872] [client 192.168.0.148:53821] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:24.673085 2019] [php7:notice] [pid 26873] [client 192.168.0.148:53820] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:24.679905 2019] [php7:notice] [pid 25176] [client 192.168.0.148:53825] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:24.680749 2019] [php7:notice] [pid 24504] [client 192.168.0.148:53826] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:24.681187 2019] [php7:notice] [pid 25179] [client 192.168.0.148:53827] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:24.681726 2019] [php7:notice] [pid 24505] [client 192.168.0.148:53824] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:24.923293 2019] [php7:notice] [pid 26872] [client 192.168.0.148:53821] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:25.124134 2019] [php7:notice] [pid 26872] [client 192.168.0.148:53821] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:25.324643 2019] [php7:notice] [pid 26872] [client 192.168.0.148:53821] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:25.525870 2019] [php7:notice] [pid 26872] [client 192.168.0.148:53821] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:25.737529 2019] [php7:notice] [pid 26872] [client 192.168.0.148:53821] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:25.785401 2019] [php7:notice] [pid 26873] [client 192.168.0.148:53820] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:25.830051 2019] [php7:notice] [pid 24504] [client 192.168.0.148:53826] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:25.985922 2019] [php7:notice] [pid 26873] [client 192.168.0.148:53820] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:26.031236 2019] [php7:notice] [pid 24504] [client 192.168.0.148:53826] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:26.187003 2019] [php7:notice] [pid 26873] [client 192.168.0.148:53820] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:26.232173 2019] [php7:notice] [pid 24504] [client 192.168.0.148:53826] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:26.387817 2019] [php7:notice] [pid 26873] [client 192.168.0.148:53820] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:26.432930 2019] [php7:notice] [pid 24504] [client 192.168.0.148:53826] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:26.593687 2019] [php7:notice] [pid 26873] [client 192.168.0.148:53820] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:26.703445 2019] [php7:notice] [pid 25176] [client 192.168.0.148:53825] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:26.904035 2019] [php7:notice] [pid 25176] [client 192.168.0.148:53825] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:27.104623 2019] [php7:notice] [pid 25176] [client 192.168.0.148:53825] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:27.305240 2019] [php7:notice] [pid 25176] [client 192.168.0.148:53825] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:27.565598 2019] [php7:notice] [pid 25179] [client 192.168.0.148:53827] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:27.766151 2019] [php7:notice] [pid 25179] [client 192.168.0.148:53827] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:27.966868 2019] [php7:notice] [pid 25179] [client 192.168.0.148:53827] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:28.167666 2019] [php7:notice] [pid 25179] [client 192.168.0.148:53827] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:28.416666 2019] [php7:notice] [pid 24505] [client 192.168.0.148:53824] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:28.617229 2019] [php7:notice] [pid 24505] [client 192.168.0.148:53824] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:28.818170 2019] [php7:notice] [pid 24505] [client 192.168.0.148:53824] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:29.018949 2019] [php7:notice] [pid 24505] [client 192.168.0.148:53824] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:29.308414 2019] [php7:notice] [pid 26872] [client 192.168.0.148:53821] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:29.342080 2019] [php7:notice] [pid 26873] [client 192.168.0.148:53820] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:29.514526 2019] [php7:notice] [pid 26872] [client 192.168.0.148:53821] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:29.542995 2019] [php7:notice] [pid 26873] [client 192.168.0.148:53820] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:29.715394 2019] [php7:notice] [pid 26872] [client 192.168.0.148:53821] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:29.743729 2019] [php7:notice] [pid 26873] [client 192.168.0.148:53820] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:29.916167 2019] [php7:notice] [pid 26872] [client 192.168.0.148:53821] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:29.944558 2019] [php7:notice] [pid 26873] [client 192.168.0.148:53820] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:30.239595 2019] [php7:notice] [pid 26873] [client 192.168.0.148:53820] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:30.298559 2019] [php7:notice] [pid 26872] [client 192.168.0.148:53821] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:30.523532 2019] [php7:notice] [pid 26873] [client 192.168.0.148:53820] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:30.724049 2019] [php7:notice] [pid 26873] [client 192.168.0.148:53820] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:09:30.925118 2019] [php7:notice] [pid 26873] [client 192.168.0.148:53820] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:10:35.282347 2019] [php7:notice] [pid 24506] [client 192.168.0.148:53910] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:10:35.553860 2019] [php7:notice] [pid 24506] [client 192.168.0.148:53910] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:10:35.754562 2019] [php7:notice] [pid 24506] [client 192.168.0.148:53910] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:10:35.955315 2019] [php7:notice] [pid 24506] [client 192.168.0.148:53910] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:10:47.002782 2019] [php7:notice] [pid 24504] [client 192.168.0.148:53924] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:10:50.267264 2019] [php7:notice] [pid 24504] [client 192.168.0.148:53924] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:10:50.468424 2019] [php7:notice] [pid 24504] [client 192.168.0.148:53924] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:10:50.669283 2019] [php7:notice] [pid 24504] [client 192.168.0.148:53924] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:10:50.941790 2019] [php7:notice] [pid 24504] [client 192.168.0.148:53924] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:10:50.948120 2019] [php7:notice] [pid 25176] [client 192.168.0.148:53928] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:10:51.237741 2019] [php7:notice] [pid 24504] [client 192.168.0.148:53924] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:10:51.439206 2019] [php7:notice] [pid 24504] [client 192.168.0.148:53924] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:10:51.639982 2019] [php7:notice] [pid 24504] [client 192.168.0.148:53924] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:10:51.940387 2019] [php7:notice] [pid 25176] [client 192.168.0.148:53928] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:10:52.141509 2019] [php7:notice] [pid 25176] [client 192.168.0.148:53928] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:10:52.342358 2019] [php7:notice] [pid 25176] [client 192.168.0.148:53928] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:10:59.319885 2019] [php7:notice] [pid 25179] [client 192.168.0.148:53938] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:10:59.636832 2019] [php7:notice] [pid 25179] [client 192.168.0.148:53938] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:10:59.837897 2019] [php7:notice] [pid 25179] [client 192.168.0.148:53938] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:00.038440 2019] [php7:notice] [pid 25179] [client 192.168.0.148:53938] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:00.356630 2019] [php7:notice] [pid 25179] [client 192.168.0.148:53938] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:00.360867 2019] [php7:notice] [pid 24505] [client 192.168.0.148:53939] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:00.362306 2019] [php7:notice] [pid 26873] [client 192.168.0.148:53942] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:00.362786 2019] [php7:notice] [pid 26872] [client 192.168.0.148:53943] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:00.363230 2019] [php7:notice] [pid 25169] [client 192.168.0.148:53944] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:00.363539 2019] [php7:notice] [pid 24506] [client 192.168.0.148:53945] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:00.620596 2019] [php7:notice] [pid 25179] [client 192.168.0.148:53938] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:00.821392 2019] [php7:notice] [pid 25179] [client 192.168.0.148:53938] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:01.022243 2019] [php7:notice] [pid 25179] [client 192.168.0.148:53938] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:01.223014 2019] [php7:notice] [pid 25179] [client 192.168.0.148:53938] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:01.442682 2019] [php7:notice] [pid 25179] [client 192.168.0.148:53938] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:01.497372 2019] [php7:notice] [pid 24505] [client 192.168.0.148:53939] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:01.537342 2019] [php7:notice] [pid 26873] [client 192.168.0.148:53942] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:01.698074 2019] [php7:notice] [pid 24505] [client 192.168.0.148:53939] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:01.737892 2019] [php7:notice] [pid 26873] [client 192.168.0.148:53942] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:01.898896 2019] [php7:notice] [pid 24505] [client 192.168.0.148:53939] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:01.939233 2019] [php7:notice] [pid 26873] [client 192.168.0.148:53942] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:02.099716 2019] [php7:notice] [pid 24505] [client 192.168.0.148:53939] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:02.139955 2019] [php7:notice] [pid 26873] [client 192.168.0.148:53942] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:02.302556 2019] [php7:notice] [pid 24505] [client 192.168.0.148:53939] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:02.407778 2019] [php7:notice] [pid 25169] [client 192.168.0.148:53944] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:02.609096 2019] [php7:notice] [pid 25169] [client 192.168.0.148:53944] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:02.809983 2019] [php7:notice] [pid 25169] [client 192.168.0.148:53944] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:03.010511 2019] [php7:notice] [pid 25169] [client 192.168.0.148:53944] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:03.274563 2019] [php7:notice] [pid 24506] [client 192.168.0.148:53945] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:03.475126 2019] [php7:notice] [pid 24506] [client 192.168.0.148:53945] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:03.675861 2019] [php7:notice] [pid 24506] [client 192.168.0.148:53945] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:03.876680 2019] [php7:notice] [pid 24506] [client 192.168.0.148:53945] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:04.123392 2019] [php7:notice] [pid 26872] [client 192.168.0.148:53943] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:04.324262 2019] [php7:notice] [pid 26872] [client 192.168.0.148:53943] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:04.525173 2019] [php7:notice] [pid 26872] [client 192.168.0.148:53943] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:04.725790 2019] [php7:notice] [pid 26872] [client 192.168.0.148:53943] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:05.011548 2019] [php7:notice] [pid 25179] [client 192.168.0.148:53938] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:05.044500 2019] [php7:notice] [pid 24505] [client 192.168.0.148:53939] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:05.214689 2019] [php7:notice] [pid 25179] [client 192.168.0.148:53938] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:05.245110 2019] [php7:notice] [pid 24505] [client 192.168.0.148:53939] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:05.415184 2019] [php7:notice] [pid 25179] [client 192.168.0.148:53938] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:05.445582 2019] [php7:notice] [pid 24505] [client 192.168.0.148:53939] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:05.616306 2019] [php7:notice] [pid 25179] [client 192.168.0.148:53938] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:05.646729 2019] [php7:notice] [pid 24505] [client 192.168.0.148:53939] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:05.979307 2019] [php7:notice] [pid 24505] [client 192.168.0.148:53939] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:06.070197 2019] [php7:notice] [pid 25179] [client 192.168.0.148:53938] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:06.261646 2019] [php7:notice] [pid 24505] [client 192.168.0.148:53939] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:06.462770 2019] [php7:notice] [pid 24505] [client 192.168.0.148:53939] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:06.663499 2019] [php7:notice] [pid 24505] [client 192.168.0.148:53939] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:15.034036 2019] [php7:notice] [pid 25178] [client 192.168.0.148:53957] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:15.305678 2019] [php7:notice] [pid 25178] [client 192.168.0.148:53957] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:15.506920 2019] [php7:notice] [pid 25178] [client 192.168.0.148:53957] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:15.707415 2019] [php7:notice] [pid 25178] [client 192.168.0.148:53957] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:17.663310 2019] [php7:notice] [pid 25178] [client 192.168.0.148:53957] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:20.846042 2019] [php7:notice] [pid 25178] [client 192.168.0.148:53957] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:21.047311 2019] [php7:notice] [pid 25178] [client 192.168.0.148:53957] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:21.248081 2019] [php7:notice] [pid 25178] [client 192.168.0.148:53957] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:21.524827 2019] [php7:notice] [pid 25178] [client 192.168.0.148:53957] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:21.540195 2019] [php7:notice] [pid 24504] [client 192.168.0.148:53963] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:21.815748 2019] [php7:notice] [pid 25178] [client 192.168.0.148:53957] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:22.017012 2019] [php7:notice] [pid 25178] [client 192.168.0.148:53957] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:22.217858 2019] [php7:notice] [pid 25178] [client 192.168.0.148:53957] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:22.540481 2019] [php7:notice] [pid 24504] [client 192.168.0.148:53963] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:22.741905 2019] [php7:notice] [pid 24504] [client 192.168.0.148:53963] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:22.942756 2019] [php7:notice] [pid 24504] [client 192.168.0.148:53963] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:49.997586 2019] [php7:notice] [pid 25176] [client 192.168.0.148:53993] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:11:52.768287 2019] [php7:notice] [pid 25176] [client 192.168.0.148:53993] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\\xCC\\xE5\\xF5\\xE0\\xED\\xE8...' for column 'name' at row 12 in /var/www/eltec.online.local/SE/model/database.php:51\nStack trace:\n#0 /var/www/eltec.online.local/SE/model/database.php(51): PDOStatement->execute(Array)\n#1 /var/www/eltec.online.local/SE/esel.php(148): insertProduct('\\xD0\\x9E\\xD0\\x9E\\xD0\\x9E \\xC2\\xAB\\xD0\\x95\\xD0\\xA1 \\xD0...', Array)\n#2 {main}\n  thrown in /var/www/eltec.online.local/SE/model/database.php on line 51
+[Mon Nov 04 16:13:57.602502 2019] [php7:notice] [pid 26873] [client 192.168.0.148:54163] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:13:57.902303 2019] [php7:notice] [pid 26873] [client 192.168.0.148:54163] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:13:58.102761 2019] [php7:notice] [pid 26873] [client 192.168.0.148:54163] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:13:58.304220 2019] [php7:notice] [pid 26873] [client 192.168.0.148:54163] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:13:58.588164 2019] [php7:notice] [pid 26873] [client 192.168.0.148:54163] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:13:58.834144 2019] [php7:notice] [pid 26873] [client 192.168.0.148:54163] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:13:59.034890 2019] [php7:notice] [pid 26873] [client 192.168.0.148:54163] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:13:59.235700 2019] [php7:notice] [pid 26873] [client 192.168.0.148:54163] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:13:59.436260 2019] [php7:notice] [pid 26873] [client 192.168.0.148:54163] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:14:14.970490 2019] [php7:notice] [pid 25169] [client 192.168.0.148:54181] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:14:15.342607 2019] [php7:notice] [pid 25169] [client 192.168.0.148:54181] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:14:15.543328 2019] [php7:notice] [pid 25169] [client 192.168.0.148:54181] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:14:15.744181 2019] [php7:notice] [pid 25169] [client 192.168.0.148:54181] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:14:16.061428 2019] [php7:notice] [pid 25169] [client 192.168.0.148:54181] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:14:16.307436 2019] [php7:notice] [pid 25169] [client 192.168.0.148:54181] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:14:16.508245 2019] [php7:notice] [pid 25169] [client 192.168.0.148:54181] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:14:16.709091 2019] [php7:notice] [pid 25169] [client 192.168.0.148:54181] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:14:16.909864 2019] [php7:notice] [pid 25169] [client 192.168.0.148:54181] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:14:17.149192 2019] [php7:notice] [pid 25169] [client 192.168.0.148:54181] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:14:17.701261 2019] [php7:notice] [pid 25169] [client 192.168.0.148:54181] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:14:18.038900 2019] [php7:notice] [pid 25169] [client 192.168.0.148:54181] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:14:18.240086 2019] [php7:notice] [pid 25169] [client 192.168.0.148:54181] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:14:18.440923 2019] [php7:notice] [pid 25169] [client 192.168.0.148:54181] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:14:18.752141 2019] [php7:notice] [pid 25169] [client 192.168.0.148:54181] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:14:19.020474 2019] [php7:notice] [pid 25169] [client 192.168.0.148:54181] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:14:19.221639 2019] [php7:notice] [pid 25169] [client 192.168.0.148:54181] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:14:19.422453 2019] [php7:notice] [pid 25169] [client 192.168.0.148:54181] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:14:19.623315 2019] [php7:notice] [pid 25169] [client 192.168.0.148:54181] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:14:19.847291 2019] [php7:notice] [pid 25169] [client 192.168.0.148:54181] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:14:44.917505 2019] [php7:notice] [pid 24506] [client 192.168.0.148:54212] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:14:45.222016 2019] [php7:notice] [pid 24506] [client 192.168.0.148:54212] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:14:45.422885 2019] [php7:notice] [pid 24506] [client 192.168.0.148:54212] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:14:45.623638 2019] [php7:notice] [pid 24506] [client 192.168.0.148:54212] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:14:45.889951 2019] [php7:notice] [pid 24506] [client 192.168.0.148:54212] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:14:45.949039 2019] [php7:notice] [pid 26872] [client 192.168.0.148:54214] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:14:46.163979 2019] [php7:notice] [pid 24506] [client 192.168.0.148:54212] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:14:46.365207 2019] [php7:notice] [pid 24506] [client 192.168.0.148:54212] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:14:46.565973 2019] [php7:notice] [pid 24506] [client 192.168.0.148:54212] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:15:07.249689 2019] [php7:notice] [pid 24505] [client 192.168.0.148:54237] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:15:22.643419 2019] [php7:notice] [pid 25179] [client 192.168.0.148:54254] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:18:04.438107 2019] [php7:notice] [pid 24504] [client 192.168.0.148:54435] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:18:06.853663 2019] [php7:notice] [pid 24504] [client 192.168.0.148:54435] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\\xCC\\xE5\\xF5\\xE0\\xED\\xE8...' for column 'name' at row 12 in /var/www/eltec.online.local/SE/model/database.php:51\nStack trace:\n#0 /var/www/eltec.online.local/SE/model/database.php(51): PDOStatement->execute(Array)\n#1 /var/www/eltec.online.local/SE/esel.php(148): insertProduct('\\xD0\\x9E\\xD0\\x9E\\xD0\\x9E \\xC2\\xAB\\xD0\\x95\\xD0\\xA1 \\xD0...', Array)\n#2 {main}\n  thrown in /var/www/eltec.online.local/SE/model/database.php on line 51
+[Mon Nov 04 16:27:19.241125 2019] [php7:notice] [pid 26977] [client 192.168.0.148:64279] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:27:20.188247 2019] [php7:notice] [pid 26977] [client 192.168.0.148:64279] PHP Warning:  imap_fetchbody(): Bad message number in /var/www/eltec.online.local/src/Email/resiveMail.php on line 42
+[Mon Nov 04 16:27:20.188411 2019] [php7:notice] [pid 26977] [client 192.168.0.148:64279] PHP Stack trace:
+[Mon Nov 04 16:27:20.188487 2019] [php7:notice] [pid 26977] [client 192.168.0.148:64279] PHP   1. {main}() /var/www/eltec.online.local/elevel/parcepost.php:0
+[Mon Nov 04 16:27:20.188555 2019] [php7:notice] [pid 26977] [client 192.168.0.148:64279] PHP   2. Ivliev\\Email\\resiveMail->reciveAttachment($from = *uninitialized*, $date = *uninitialized*) /var/www/eltec.online.local/elevel/parcepost.php:8
+[Mon Nov 04 16:27:20.188620 2019] [php7:notice] [pid 26977] [client 192.168.0.148:64279] PHP   3. imap_fetchbody(*uninitialized*, *uninitialized*, *uninitialized*) /var/www/eltec.online.local/src/Email/resiveMail.php:42
+[Mon Nov 04 16:27:20.188870 2019] [php7:notice] [pid 26977] [client 192.168.0.148:64279] PHP Warning:  imap_fetchbody(): Bad message number in /var/www/eltec.online.local/src/Email/resiveMail.php on line 47
+[Mon Nov 04 16:27:20.188954 2019] [php7:notice] [pid 26977] [client 192.168.0.148:64279] PHP Stack trace:
+[Mon Nov 04 16:27:20.189009 2019] [php7:notice] [pid 26977] [client 192.168.0.148:64279] PHP   1. {main}() /var/www/eltec.online.local/elevel/parcepost.php:0
+[Mon Nov 04 16:27:20.189069 2019] [php7:notice] [pid 26977] [client 192.168.0.148:64279] PHP   2. Ivliev\\Email\\resiveMail->reciveAttachment($from = *uninitialized*, $date = *uninitialized*) /var/www/eltec.online.local/elevel/parcepost.php:8
+[Mon Nov 04 16:27:20.189138 2019] [php7:notice] [pid 26977] [client 192.168.0.148:64279] PHP   3. imap_fetchbody(*uninitialized*, *uninitialized*, *uninitialized*) /var/www/eltec.online.local/src/Email/resiveMail.php:47
+[Mon Nov 04 16:27:20.189537 2019] [php7:notice] [pid 26977] [client 192.168.0.148:64279] PHP Notice:  Trying to get property 'parts' of non-object in /var/www/eltec.online.local/src/Email/resiveMail.php on line 54
+[Mon Nov 04 16:27:20.189661 2019] [php7:notice] [pid 26977] [client 192.168.0.148:64279] PHP Stack trace:
+[Mon Nov 04 16:27:20.189794 2019] [php7:notice] [pid 26977] [client 192.168.0.148:64279] PHP   1. {main}() /var/www/eltec.online.local/elevel/parcepost.php:0
+[Mon Nov 04 16:27:20.189879 2019] [php7:notice] [pid 26977] [client 192.168.0.148:64279] PHP   2. Ivliev\\Email\\resiveMail->reciveAttachment($from = *uninitialized*, $date = *uninitialized*) /var/www/eltec.online.local/elevel/parcepost.php:8
+[Mon Nov 04 16:27:20.195120 2019] [php7:notice] [pid 26977] [client 192.168.0.148:64279] PHP Warning:  ZipArchive::open(): Empty string as source in /var/www/eltec.online.local/elevel/parcepost.php on line 12
+[Mon Nov 04 16:27:20.195479 2019] [php7:notice] [pid 26977] [client 192.168.0.148:64279] PHP Stack trace:
+[Mon Nov 04 16:27:20.195604 2019] [php7:notice] [pid 26977] [client 192.168.0.148:64279] PHP   1. {main}() /var/www/eltec.online.local/elevel/parcepost.php:0
+[Mon Nov 04 16:27:20.195670 2019] [php7:notice] [pid 26977] [client 192.168.0.148:64279] PHP   2. ZipArchive->open(*uninitialized*) /var/www/eltec.online.local/elevel/parcepost.php:12
+[Mon Nov 04 16:27:20.196390 2019] [php7:notice] [pid 26977] [client 192.168.0.148:64279] PHP Warning:  ZipArchive::getFromName(): Invalid or uninitialized Zip object in /var/www/eltec.online.local/elevel/parcepost.php on line 13
+[Mon Nov 04 16:27:20.196524 2019] [php7:notice] [pid 26977] [client 192.168.0.148:64279] PHP Stack trace:
+[Mon Nov 04 16:27:20.196594 2019] [php7:notice] [pid 26977] [client 192.168.0.148:64279] PHP   1. {main}() /var/www/eltec.online.local/elevel/parcepost.php:0
+[Mon Nov 04 16:27:20.196654 2019] [php7:notice] [pid 26977] [client 192.168.0.148:64279] PHP   2. ZipArchive->getFromName(*uninitialized*) /var/www/eltec.online.local/elevel/parcepost.php:13
+[Mon Nov 04 16:27:20.196999 2019] [php7:notice] [pid 26977] [client 192.168.0.148:64279] PHP Warning:  ZipArchive::getFromName(): Invalid or uninitialized Zip object in /var/www/eltec.online.local/elevel/parcepost.php on line 15
+[Mon Nov 04 16:27:20.197069 2019] [php7:notice] [pid 26977] [client 192.168.0.148:64279] PHP Stack trace:
+[Mon Nov 04 16:27:20.197130 2019] [php7:notice] [pid 26977] [client 192.168.0.148:64279] PHP   1. {main}() /var/www/eltec.online.local/elevel/parcepost.php:0
+[Mon Nov 04 16:27:20.197199 2019] [php7:notice] [pid 26977] [client 192.168.0.148:64279] PHP   2. ZipArchive->getFromName(*uninitialized*) /var/www/eltec.online.local/elevel/parcepost.php:15
+[Mon Nov 04 16:27:21.872009 2019] [php7:notice] [pid 26977] [client 192.168.0.148:64279] PHP Notice:  Trying to get property 'sheetData' of non-object in /var/www/eltec.online.local/elevel/parcepost.php on line 22
+[Mon Nov 04 16:27:21.872150 2019] [php7:notice] [pid 26977] [client 192.168.0.148:64279] PHP Stack trace:
+[Mon Nov 04 16:27:21.872253 2019] [php7:notice] [pid 26977] [client 192.168.0.148:64279] PHP   1. {main}() /var/www/eltec.online.local/elevel/parcepost.php:0
+[Mon Nov 04 16:27:28.356444 2019] [php7:notice] [pid 26873] [client 192.168.0.148:64280] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:27:48.990105 2019] [php7:notice] [pid 26873] [client 192.168.0.148:64280] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:27:49.927639 2019] [php7:notice] [pid 26873] [client 192.168.0.148:64280] PHP Warning:  imap_fetchbody(): Bad message number in /var/www/eltec.online.local/src/Email/resiveMail.php on line 42
+[Mon Nov 04 16:27:49.927774 2019] [php7:notice] [pid 26873] [client 192.168.0.148:64280] PHP Stack trace:
+[Mon Nov 04 16:27:49.927856 2019] [php7:notice] [pid 26873] [client 192.168.0.148:64280] PHP   1. {main}() /var/www/eltec.online.local/elevel/parcepost.php:0
+[Mon Nov 04 16:27:49.927929 2019] [php7:notice] [pid 26873] [client 192.168.0.148:64280] PHP   2. Ivliev\\Email\\resiveMail->reciveAttachment($from = *uninitialized*, $date = *uninitialized*) /var/www/eltec.online.local/elevel/parcepost.php:8
+[Mon Nov 04 16:27:49.928032 2019] [php7:notice] [pid 26873] [client 192.168.0.148:64280] PHP   3. imap_fetchbody(*uninitialized*, *uninitialized*, *uninitialized*) /var/www/eltec.online.local/src/Email/resiveMail.php:42
+[Mon Nov 04 16:27:49.928260 2019] [php7:notice] [pid 26873] [client 192.168.0.148:64280] PHP Warning:  imap_fetchbody(): Bad message number in /var/www/eltec.online.local/src/Email/resiveMail.php on line 47
+[Mon Nov 04 16:27:49.928333 2019] [php7:notice] [pid 26873] [client 192.168.0.148:64280] PHP Stack trace:
+[Mon Nov 04 16:27:49.928384 2019] [php7:notice] [pid 26873] [client 192.168.0.148:64280] PHP   1. {main}() /var/www/eltec.online.local/elevel/parcepost.php:0
+[Mon Nov 04 16:27:49.928438 2019] [php7:notice] [pid 26873] [client 192.168.0.148:64280] PHP   2. Ivliev\\Email\\resiveMail->reciveAttachment($from = *uninitialized*, $date = *uninitialized*) /var/www/eltec.online.local/elevel/parcepost.php:8
+[Mon Nov 04 16:27:49.928483 2019] [php7:notice] [pid 26873] [client 192.168.0.148:64280] PHP   3. imap_fetchbody(*uninitialized*, *uninitialized*, *uninitialized*) /var/www/eltec.online.local/src/Email/resiveMail.php:47
+[Mon Nov 04 16:27:49.928847 2019] [php7:notice] [pid 26873] [client 192.168.0.148:64280] PHP Notice:  Trying to get property 'parts' of non-object in /var/www/eltec.online.local/src/Email/resiveMail.php on line 54
+[Mon Nov 04 16:27:49.928960 2019] [php7:notice] [pid 26873] [client 192.168.0.148:64280] PHP Stack trace:
+[Mon Nov 04 16:27:49.929031 2019] [php7:notice] [pid 26873] [client 192.168.0.148:64280] PHP   1. {main}() /var/www/eltec.online.local/elevel/parcepost.php:0
+[Mon Nov 04 16:27:49.929105 2019] [php7:notice] [pid 26873] [client 192.168.0.148:64280] PHP   2. Ivliev\\Email\\resiveMail->reciveAttachment($from = *uninitialized*, $date = *uninitialized*) /var/www/eltec.online.local/elevel/parcepost.php:8
+[Mon Nov 04 16:27:49.934401 2019] [php7:notice] [pid 26873] [client 192.168.0.148:64280] PHP Warning:  ZipArchive::open(): Empty string as source in /var/www/eltec.online.local/elevel/parcepost.php on line 12
+[Mon Nov 04 16:27:49.934535 2019] [php7:notice] [pid 26873] [client 192.168.0.148:64280] PHP Stack trace:
+[Mon Nov 04 16:27:49.934702 2019] [php7:notice] [pid 26873] [client 192.168.0.148:64280] PHP   1. {main}() /var/www/eltec.online.local/elevel/parcepost.php:0
+[Mon Nov 04 16:27:49.934766 2019] [php7:notice] [pid 26873] [client 192.168.0.148:64280] PHP   2. ZipArchive->open(*uninitialized*) /var/www/eltec.online.local/elevel/parcepost.php:12
+[Mon Nov 04 16:27:49.935479 2019] [php7:notice] [pid 26873] [client 192.168.0.148:64280] PHP Warning:  ZipArchive::getFromName(): Invalid or uninitialized Zip object in /var/www/eltec.online.local/elevel/parcepost.php on line 13
+[Mon Nov 04 16:27:49.935624 2019] [php7:notice] [pid 26873] [client 192.168.0.148:64280] PHP Stack trace:
+[Mon Nov 04 16:27:49.935688 2019] [php7:notice] [pid 26873] [client 192.168.0.148:64280] PHP   1. {main}() /var/www/eltec.online.local/elevel/parcepost.php:0
+[Mon Nov 04 16:27:49.935754 2019] [php7:notice] [pid 26873] [client 192.168.0.148:64280] PHP   2. ZipArchive->getFromName(*uninitialized*) /var/www/eltec.online.local/elevel/parcepost.php:13
+[Mon Nov 04 16:27:49.936088 2019] [php7:notice] [pid 26873] [client 192.168.0.148:64280] PHP Warning:  ZipArchive::getFromName(): Invalid or uninitialized Zip object in /var/www/eltec.online.local/elevel/parcepost.php on line 15
+[Mon Nov 04 16:27:49.936318 2019] [php7:notice] [pid 26873] [client 192.168.0.148:64280] PHP Stack trace:
+[Mon Nov 04 16:27:49.936427 2019] [php7:notice] [pid 26873] [client 192.168.0.148:64280] PHP   1. {main}() /var/www/eltec.online.local/elevel/parcepost.php:0
+[Mon Nov 04 16:27:49.936499 2019] [php7:notice] [pid 26873] [client 192.168.0.148:64280] PHP   2. ZipArchive->getFromName(*uninitialized*) /var/www/eltec.online.local/elevel/parcepost.php:15
+[Mon Nov 04 16:27:50.037009 2019] [php7:notice] [pid 26873] [client 192.168.0.148:64280] PHP Notice:  Trying to get property 'sheetData' of non-object in /var/www/eltec.online.local/elevel/parcepost.php on line 22
+[Mon Nov 04 16:27:50.037152 2019] [php7:notice] [pid 26873] [client 192.168.0.148:64280] PHP Stack trace:
+[Mon Nov 04 16:27:50.037263 2019] [php7:notice] [pid 26873] [client 192.168.0.148:64280] PHP   1. {main}() /var/www/eltec.online.local/elevel/parcepost.php:0
+[Mon Nov 04 16:31:00.054272 2019] [php7:notice] [pid 26872] [client 192.168.0.148:65132] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:38:41.669403 2019] [php7:notice] [pid 25179] [client 192.168.0.148:59547] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:42:35.062248 2019] [php7:notice] [pid 26872] [client 192.168.0.148:65132] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:43:52.669487 2019] [php7:notice] [pid 25178] [client 192.168.0.148:60188] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:45:08.516480 2019] [php7:notice] [pid 24504] [client 192.168.0.148:60269] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:45:49.059904 2019] [php7:notice] [pid 24504] [client 192.168.0.148:60269] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\\xCC\\xE5\\xF5\\xE0\\xED\\xE8...' for column 'name' at row 12 in /var/www/eltec.online.local/SE/model/database.php:51\nStack trace:\n#0 /var/www/eltec.online.local/SE/model/database.php(51): PDOStatement->execute(Array)\n#1 /var/www/eltec.online.local/se/esel.php(149): insertProduct('\\xD0\\x9E\\xD0\\x9E\\xD0\\x9E \\xC2\\xAB\\xD0\\x95\\xD0\\xA1 \\xD0...', Array)\n#2 {main}\n  thrown in /var/www/eltec.online.local/SE/model/database.php on line 51
+[Mon Nov 04 16:46:40.148932 2019] [php7:notice] [pid 25176] [client 192.168.0.148:60413] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:48:57.782683 2019] [php7:notice] [pid 25176] [client 192.168.0.148:60413] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:50:02.065103 2019] [php7:notice] [pid 25176] [client 192.168.0.148:60413] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:50:48.273919 2019] [php7:notice] [pid 25176] [client 192.168.0.148:60413] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1366 Incorrect string value: '\\xCC\\xE5\\xF5\\xE0\\xED\\xE8...' for column 'name' at row 12 in /var/www/eltec.online.local/SE/model/database.php:51\nStack trace:\n#0 /var/www/eltec.online.local/SE/model/database.php(51): PDOStatement->execute(Array)\n#1 /var/www/eltec.online.local/se/esel.php(132): insertProduct('\\xD0\\x9E\\xD0\\x9E\\xD0\\x9E \\xC2\\xAB\\xD0\\x95\\xD0\\xA1 \\xD0...', Array)\n#2 {main}\n  thrown in /var/www/eltec.online.local/SE/model/database.php on line 51
+[Mon Nov 04 16:51:33.033231 2019] [php7:notice] [pid 26977] [client 192.168.0.148:60933] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:52:02.581019 2019] [php7:notice] [pid 26977] [client 192.168.0.148:60933] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:52:35.947945 2019] [php7:notice] [pid 26977] [client 192.168.0.148:60933] PHP Notice:  Undefined offset: 1 in /var/www/eltec.online.local/se/esel.php on line 118
+[Mon Nov 04 16:52:35.948081 2019] [php7:notice] [pid 26977] [client 192.168.0.148:60933] PHP Stack trace:
+[Mon Nov 04 16:52:35.948203 2019] [php7:notice] [pid 26977] [client 192.168.0.148:60933] PHP   1. {main}() /var/www/eltec.online.local/se/esel.php:0
+[Mon Nov 04 16:52:35.949284 2019] [php7:notice] [pid 26977] [client 192.168.0.148:60933] PHP Notice:  Undefined offset: 2 in /var/www/eltec.online.local/se/esel.php on line 119
+[Mon Nov 04 16:52:35.949418 2019] [php7:notice] [pid 26977] [client 192.168.0.148:60933] PHP Stack trace:
+[Mon Nov 04 16:52:35.949493 2019] [php7:notice] [pid 26977] [client 192.168.0.148:60933] PHP   1. {main}() /var/www/eltec.online.local/se/esel.php:0
+[Mon Nov 04 16:52:35.950481 2019] [php7:notice] [pid 26977] [client 192.168.0.148:60933] PHP Notice:  Undefined offset: 3 in /var/www/eltec.online.local/se/esel.php on line 120
+[Mon Nov 04 16:52:35.950617 2019] [php7:notice] [pid 26977] [client 192.168.0.148:60933] PHP Stack trace:
+[Mon Nov 04 16:52:35.950695 2019] [php7:notice] [pid 26977] [client 192.168.0.148:60933] PHP   1. {main}() /var/www/eltec.online.local/se/esel.php:0
+[Mon Nov 04 16:55:26.651259 2019] [php7:notice] [pid 25169] [client 192.168.0.148:61205] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:55:50.553798 2019] [php7:notice] [pid 25169] [client 192.168.0.148:61205] PHP Notice:  Undefined offset: 1 in /var/www/eltec.online.local/se/esel.php on line 118
+[Mon Nov 04 16:55:50.553906 2019] [php7:notice] [pid 25169] [client 192.168.0.148:61205] PHP Stack trace:
+[Mon Nov 04 16:55:50.554036 2019] [php7:notice] [pid 25169] [client 192.168.0.148:61205] PHP   1. {main}() /var/www/eltec.online.local/se/esel.php:0
+[Mon Nov 04 16:55:50.554793 2019] [php7:notice] [pid 25169] [client 192.168.0.148:61205] PHP Notice:  Undefined offset: 2 in /var/www/eltec.online.local/se/esel.php on line 119
+[Mon Nov 04 16:55:50.554906 2019] [php7:notice] [pid 25169] [client 192.168.0.148:61205] PHP Stack trace:
+[Mon Nov 04 16:55:50.555091 2019] [php7:notice] [pid 25169] [client 192.168.0.148:61205] PHP   1. {main}() /var/www/eltec.online.local/se/esel.php:0
+[Mon Nov 04 16:55:50.555854 2019] [php7:notice] [pid 25169] [client 192.168.0.148:61205] PHP Notice:  Undefined offset: 3 in /var/www/eltec.online.local/se/esel.php on line 120
+[Mon Nov 04 16:55:50.556039 2019] [php7:notice] [pid 25169] [client 192.168.0.148:61205] PHP Stack trace:
+[Mon Nov 04 16:55:50.556133 2019] [php7:notice] [pid 25169] [client 192.168.0.148:61205] PHP   1. {main}() /var/www/eltec.online.local/se/esel.php:0
+[Mon Nov 04 16:56:42.206040 2019] [php7:notice] [pid 26873] [client 192.168.0.148:61283] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:57:11.855543 2019] [php7:notice] [pid 26873] [client 192.168.0.148:61283] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:57:26.923613 2019] [php7:notice] [pid 24506] [client 192.168.0.148:61327] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:57:27.122783 2019] [php7:notice] [pid 24506] [client 192.168.0.148:61327] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:57:27.124787 2019] [php7:notice] [pid 24505] [client 192.168.0.148:61328] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:57:27.125350 2019] [php7:notice] [pid 26872] [client 192.168.0.148:61329] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:57:27.125998 2019] [php7:notice] [pid 24504] [client 192.168.0.148:61331] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:57:27.126161 2019] [php7:notice] [pid 25178] [client 192.168.0.148:61330] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:57:27.367998 2019] [php7:notice] [pid 24504] [client 192.168.0.148:61331] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:57:27.396082 2019] [php7:notice] [pid 24505] [client 192.168.0.148:61328] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:57:27.495763 2019] [php7:notice] [pid 26872] [client 192.168.0.148:61329] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:57:33.534241 2019] [php7:notice] [pid 25176] [client 192.168.0.148:61355] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:57:33.681834 2019] [php7:notice] [pid 25176] [client 192.168.0.148:61355] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:57:34.070388 2019] [php7:notice] [pid 25176] [client 192.168.0.148:61355] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:57:34.073768 2019] [php7:notice] [pid 26977] [client 192.168.0.148:61356] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:57:34.103800 2019] [php7:notice] [pid 27097] [client 192.168.0.148:61358] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:57:34.105272 2019] [php7:notice] [pid 27096] [client 192.168.0.148:61359] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:57:34.109865 2019] [php7:notice] [pid 27095] [client 192.168.0.148:61357] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:57:34.198036 2019] [php7:notice] [pid 25176] [client 192.168.0.148:61355] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:57:34.309909 2019] [php7:notice] [pid 27095] [client 192.168.0.148:61357] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:57:34.360028 2019] [php7:notice] [pid 27096] [client 192.168.0.148:61359] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:57:34.996653 2019] [php7:notice] [pid 27096] [client 192.168.0.148:61359] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:57:55.431484 2019] [php7:notice] [pid 24504] [client 192.168.0.148:61382] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:57:57.146247 2019] [php7:notice] [pid 24504] [client 192.168.0.148:61382] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:57:57.514188 2019] [php7:notice] [pid 24504] [client 192.168.0.148:61382] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:58:06.367648 2019] [php7:notice] [pid 24506] [client 192.168.0.148:61393] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:58:06.794580 2019] [php7:notice] [pid 24506] [client 192.168.0.148:61393] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:58:09.299354 2019] [php7:notice] [pid 24506] [client 192.168.0.148:61393] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:58:09.547847 2019] [php7:notice] [pid 24506] [client 192.168.0.148:61393] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:58:09.718276 2019] [php7:notice] [pid 24506] [client 192.168.0.148:61393] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:58:14.369151 2019] [php7:notice] [pid 24506] [client 192.168.0.148:61393] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:59:40.539659 2019] [php7:notice] [pid 24505] [client 192.168.0.148:61662] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:59:40.874250 2019] [php7:notice] [pid 24505] [client 192.168.0.148:61662] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:59:40.892597 2019] [php7:notice] [pid 26872] [client 192.168.0.148:61663] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:59:43.986053 2019] [php7:notice] [pid 26872] [client 192.168.0.148:61663] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:59:47.852072 2019] [php7:notice] [pid 26872] [client 192.168.0.148:61663] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:59:53.848686 2019] [php7:notice] [pid 25178] [client 192.168.0.148:61676] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:59:53.938462 2019] [php7:notice] [pid 27097] [client 192.168.0.148:61677] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:59:56.700208 2019] [php7:notice] [pid 27097] [client 192.168.0.148:61677] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 16:59:57.312543 2019] [php7:notice] [pid 27097] [client 192.168.0.148:61677] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:00:00.092935 2019] [php7:notice] [pid 27097] [client 192.168.0.148:61677] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:00:00.647150 2019] [php7:notice] [pid 27097] [client 192.168.0.148:61677] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:00:02.882269 2019] [php7:notice] [pid 27097] [client 192.168.0.148:61677] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:00:09.526912 2019] [php7:notice] [pid 26977] [client 192.168.0.148:61692] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:00:11.559906 2019] [php7:notice] [pid 26977] [client 192.168.0.148:61692] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:00:11.858301 2019] [php7:notice] [pid 26977] [client 192.168.0.148:61692] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:00:15.523470 2019] [php7:notice] [pid 26977] [client 192.168.0.148:61692] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:00:21.970753 2019] [php7:notice] [pid 25176] [client 192.168.0.148:61705] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:00:46.343222 2019] [php7:notice] [pid 25176] [client 192.168.0.148:61705] PHP Notice:  Undefined offset: 1 in /var/www/eltec.online.local/SE/esel.php on line 118
+[Mon Nov 04 17:00:46.343340 2019] [php7:notice] [pid 25176] [client 192.168.0.148:61705] PHP Stack trace:
+[Mon Nov 04 17:00:46.343688 2019] [php7:notice] [pid 25176] [client 192.168.0.148:61705] PHP   1. {main}() /var/www/eltec.online.local/SE/esel.php:0
+[Mon Nov 04 17:00:46.344567 2019] [php7:notice] [pid 25176] [client 192.168.0.148:61705] PHP Notice:  Undefined offset: 2 in /var/www/eltec.online.local/SE/esel.php on line 119
+[Mon Nov 04 17:00:46.344691 2019] [php7:notice] [pid 25176] [client 192.168.0.148:61705] PHP Stack trace:
+[Mon Nov 04 17:00:46.344758 2019] [php7:notice] [pid 25176] [client 192.168.0.148:61705] PHP   1. {main}() /var/www/eltec.online.local/SE/esel.php:0
+[Mon Nov 04 17:00:46.345536 2019] [php7:notice] [pid 25176] [client 192.168.0.148:61705] PHP Notice:  Undefined offset: 3 in /var/www/eltec.online.local/SE/esel.php on line 120
+[Mon Nov 04 17:00:46.345653 2019] [php7:notice] [pid 25176] [client 192.168.0.148:61705] PHP Stack trace:
+[Mon Nov 04 17:00:46.345723 2019] [php7:notice] [pid 25176] [client 192.168.0.148:61705] PHP   1. {main}() /var/www/eltec.online.local/SE/esel.php:0
+[Mon Nov 04 17:03:52.776172 2019] [php7:notice] [pid 27096] [client 192.168.0.148:61923] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:06:07.789468 2019] [php7:notice] [pid 24506] [client 192.168.0.148:62011] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:06:44.060706 2019] [php7:notice] [pid 26872] [client 192.168.0.148:62033] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:07:43.006030 2019] [php7:notice] [pid 25178] [client 192.168.0.148:62087] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:08:01.429556 2019] [php7:notice] [pid 27097] [client 192.168.0.148:62100] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:08:01.816294 2019] [php7:notice] [pid 27097] [client 192.168.0.148:62100] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:08:01.818085 2019] [php7:notice] [pid 26977] [client 192.168.0.148:62101] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:08:01.818678 2019] [php7:notice] [pid 25176] [client 192.168.0.148:62102] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:08:01.818972 2019] [php7:notice] [pid 26873] [client 192.168.0.148:62103] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:08:01.819207 2019] [php7:notice] [pid 27096] [client 192.168.0.148:62104] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:08:01.819733 2019] [php7:notice] [pid 24504] [client 192.168.0.148:62105] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:08:01.919925 2019] [php7:notice] [pid 27097] [client 192.168.0.148:62100] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:08:02.085144 2019] [php7:notice] [pid 26977] [client 192.168.0.148:62101] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:08:02.693149 2019] [php7:notice] [pid 26977] [client 192.168.0.148:62101] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:08:02.779931 2019] [php7:notice] [pid 26873] [client 192.168.0.148:62103] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:08:07.997293 2019] [php7:notice] [pid 26873] [client 192.168.0.148:62103] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:08:08.425407 2019] [php7:notice] [pid 26873] [client 192.168.0.148:62103] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:08:13.419559 2019] [php7:notice] [pid 26873] [client 192.168.0.148:62103] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:08:13.847385 2019] [php7:notice] [pid 26873] [client 192.168.0.148:62103] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:09:23.370253 2019] [php7:notice] [pid 24505] [client 192.168.0.148:62317] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:09:23.649075 2019] [php7:notice] [pid 24505] [client 192.168.0.148:62317] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:09:23.850916 2019] [php7:notice] [pid 24505] [client 192.168.0.148:62317] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:09:27.716831 2019] [php7:notice] [pid 24505] [client 192.168.0.148:62317] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:09:30.833535 2019] [php7:notice] [pid 24505] [client 192.168.0.148:62317] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:09:31.124482 2019] [php7:notice] [pid 24505] [client 192.168.0.148:62317] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:09:48.259476 2019] [php7:notice] [pid 27104] [client 192.168.0.148:62333] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:09:52.004317 2019] [php7:notice] [pid 27104] [client 192.168.0.148:62333] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:09:52.232742 2019] [php7:notice] [pid 27104] [client 192.168.0.148:62333] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:10:00.581576 2019] [php7:notice] [pid 27106] [client 192.168.0.148:62340] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:10:07.165884 2019] [php7:notice] [pid 27105] [client 192.168.0.148:62344] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:10:07.667687 2019] [php7:notice] [pid 27105] [client 192.168.0.148:62344] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:11:29.876002 2019] [php7:notice] [pid 26977] [client 192.168.0.148:62398] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:11:32.661870 2019] [php7:notice] [pid 26977] [client 192.168.0.148:62398] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:11:39.162051 2019] [php7:notice] [pid 25176] [client 192.168.0.148:62402] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:11:42.489536 2019] [php7:notice] [pid 25176] [client 192.168.0.148:62402] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:11:50.487946 2019] [php7:notice] [pid 27096] [client 192.168.0.148:62407] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:11:53.556114 2019] [php7:notice] [pid 27096] [client 192.168.0.148:62407] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:11:59.719201 2019] [php7:notice] [pid 27097] [client 192.168.0.148:62412] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:12:02.915228 2019] [php7:notice] [pid 27097] [client 192.168.0.148:62412] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:14:20.544884 2019] [php7:notice] [pid 24504] [client 192.168.0.148:62516] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:35:58.590284 2019] [php7:notice] [pid 24505] [client 192.168.0.148:63728] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:38:19.589486 2019] [php7:notice] [pid 27104] [client 192.168.0.148:63827] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:38:19.710991 2019] [php7:notice] [pid 27104] [client 192.168.0.148:63827] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:38:20.056085 2019] [php7:notice] [pid 27104] [client 192.168.0.148:63827] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:38:20.072434 2019] [php7:notice] [pid 27106] [client 192.168.0.148:63828] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:38:20.217182 2019] [php7:notice] [pid 27106] [client 192.168.0.148:63828] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:38:20.264797 2019] [php7:notice] [pid 27104] [client 192.168.0.148:63827] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:38:20.403950 2019] [php7:notice] [pid 27104] [client 192.168.0.148:63827] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:38:20.498447 2019] [php7:notice] [pid 27106] [client 192.168.0.148:63828] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:38:20.645760 2019] [php7:notice] [pid 27106] [client 192.168.0.148:63828] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 17:38:20.656721 2019] [php7:notice] [pid 27104] [client 192.168.0.148:63827] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 18:18:54.651829 2019] [php7:notice] [pid 27096] [client 192.168.0.148:49998] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'., referer: http://eltec.online.local/se/etm/
+[Mon Nov 04 18:22:20.428587 2019] [php7:notice] [pid 26873] [client 192.168.0.148:50142] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 18:22:37.142172 2019] [php7:notice] [pid 26873] [client 192.168.0.148:50142] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 18:22:44.171130 2019] [php7:notice] [pid 26873] [client 192.168.0.148:50142] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 18:22:53.822253 2019] [php7:notice] [pid 26873] [client 192.168.0.148:50142] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 18:23:03.151343 2019] [php7:notice] [pid 26873] [client 192.168.0.148:50142] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 18:25:17.265819 2019] [php7:notice] [pid 26873] [client 192.168.0.148:50142] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 18:27:51.135366 2019] [php7:notice] [pid 26873] [client 192.168.0.148:50142] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 18:30:52.704883 2019] [php7:notice] [pid 26873] [client 192.168.0.148:50142] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 18:32:24.054902 2019] [php7:notice] [pid 26873] [client 192.168.0.148:50142] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 18:36:14.511244 2019] [php7:notice] [pid 27096] [client 192.168.0.148:50960] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 18:36:35.844781 2019] [php7:notice] [pid 27096] [client 192.168.0.148:50960] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 18:37:02.026704 2019] [php7:notice] [pid 27096] [client 192.168.0.148:50960] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 18:39:07.133849 2019] [php7:notice] [pid 27104] [client 192.168.0.148:51248] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 18:40:33.354879 2019] [php7:notice] [pid 27097] [client 192.168.0.148:51314] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.
+[Mon Nov 04 18:40:59.697092 2019] [php7:notice] [pid 27097] [client 192.168.0.148:51314] Xdebug could not open the remote debug file '/tmp/xdebug/xdebug.log'.

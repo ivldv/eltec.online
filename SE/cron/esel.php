@@ -49,11 +49,8 @@ require_once ($filecron.'/model/database.php');
 	    parse_str($item, $cookie);
 	    $cookies = array_merge($cookies, $cookie);
     }
-//	    var_dump($cookies);
     //Завершает сеанс
     curl_close($connection);
-	//Выводим на экран
-//    echo $rezult ;
 
 // Сохранение файла с удаленного хостинга:
 function save_get_file($URL='', $cookie='')
@@ -87,8 +84,7 @@ function save_get_file($URL='', $cookie='')
         rewind($verbose);
         $verboseLog = stream_get_contents($verbose);
         
-//        echo "Verbose information:\n<pre>", htmlspecialchars($verboseLog), "</pre>\n";
-    
+
         curl_close ($ch);
         return $filename;
     }
@@ -113,17 +109,14 @@ while (!feof($handle)) {
 	if (empty($str)) continue;
     $arr = [];
     $arr = explode (';', $str);
-//	echo $str;
-//	var_dump($arr);
     $cell['producer']= (str_replace(' ', '', $arr[0])==='Schneider') ? 'Schneider Electric' : str_replace(' ', '', $arr[0]) ;
+//    Ivliev\validation\validation::validationProducer(str_replace(' ', '', $arr[0]))
     $cell['artikle']= trim($arr[1]);
     $cell['name'] = trim($arr[2]);
     $ddddd = trim($arr[3]);
     if(!is_numeric ($ddddd)){
-//			var_dump($ddddd);
 
         $cell['presence'] = 500; 
-//        echo 'm';  
     }else{
         $cell['presence'] = (int)$ddddd;
     }

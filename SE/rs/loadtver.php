@@ -13,7 +13,7 @@
     $ftp_server = "93.189.41.9";
     $ftp_user = "u842261";
     $ftp_pass = "k6oKnqRVVOyG";
-    $local_file = 'price.xml';
+    $local_file = '../uploads/price.xml';
     $server_file = '/tver/price.xml';
     // установить соединение или выйти
     $conn_id = ftp_connect($ftp_server) or die("Не удалось установить соединение с $ftp_server"); 
@@ -58,5 +58,11 @@
 		}
 		echo ' выполнено успешно ';
 	}
+	if (ftp_delete($conn_id, $server_file)) {
+	 echo "Файл $file удален\n";
+	} else {
+	 echo "Не удалось удалить $file\n";
+	}
+
     // закрыть соединение
     ftp_close($conn_id);  
