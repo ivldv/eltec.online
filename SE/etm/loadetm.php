@@ -78,7 +78,7 @@ require_once ($filecron.'/model/database.php');
 		fclose($handle);
 		echo ' выполнено успешно ';
     } else {
-        echo "Не удалось завершить операцию\n";
+        echo "Не удалось завершить операцию ".PHP_EOL;
     }
 	
     // закрыть соединение
