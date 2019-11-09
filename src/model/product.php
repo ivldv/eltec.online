@@ -68,6 +68,32 @@ public function __construct(array $configPDO)
         $stm = $this->pdo->prepare($sql);
         return $stm->execute($values);
     }
+
+    /**
+     * Insert product in the current database.
+     *
+     * @param $Purveyors
+     * @param array $products
+     * @return bool
+     */
+    public function insertAssortiment($products){
+
+        $sql = "SELECT id FROM assortiment WHERE article = '".$products['article']."' AND producer = '".$products['producer']."';";
+        $stmt = $this->pdo->query($sql);
+        $idPos = $stmt->fetchAll(PDO::FETCH_COLUMN);
+        if ($idPos)
+        {
+            $allowed = array("name","article",'producer','groupprodukt','cost'); // allowed fields
+            $sql = "UPDATE `assortiment` SET ".$this->pdoSet($allowed,$values,$products)." WHERE `assortiment`.`id` = $idPos[0] ";
+        }else{
+            $allowed = array("name","article",'producer','groupprodukt','cost'); // allowed fields
+            $sql = "INSERT INTO `assortiment` SET ".$this->pdoSet($allowed,$values,$products);
+        }
+        $stm = $this->pdo->prepare($sql);
+        return $stm->execute($values);
+    }
+
+
     /**
      * Check if a table exists in the current database.
      *
@@ -136,8 +162,8 @@ public function __construct(array $configPDO)
         return $row;
     }
 }
-require_once 'config.php';
+//require_once 'config.php';
 
-$tov = new Product($configPDO) ;
-$aaa = $tov->selectProductFromDB('774320');
-var_dump($aaa);
+//$tov = new Product($configPDO) ;
+//$aaa = $tov->selectProductFromDB('774320');
+//var_dump($aaa);
