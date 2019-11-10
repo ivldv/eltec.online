@@ -83,10 +83,10 @@ public function __construct(array $configPDO)
         $idPos = $stmt->fetchAll(PDO::FETCH_COLUMN);
         if ($idPos)
         {
-            $allowed = array("name","article",'producer','groupprodukt','cost'); // allowed fields
+            $allowed = array("name","article",'producer','groupprodukt','cost','dateload'); // allowed fields
             $sql = "UPDATE `assortiment` SET ".$this->pdoSet($allowed,$values,$products)." WHERE `assortiment`.`id` = $idPos[0] ";
         }else{
-            $allowed = array("name","article",'producer','groupprodukt','cost'); // allowed fields
+            $allowed = array("name","article",'producer','groupprodukt','cost','dateload'); // allowed fields
             $sql = "INSERT INTO `assortiment` SET ".$this->pdoSet($allowed,$values,$products);
         }
         $stm = $this->pdo->prepare($sql);
