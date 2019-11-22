@@ -1,4 +1,5 @@
 <?php
+require_once ('../../vendor/autoload.php');
 function myErrorHandler($errno, $errstr, $errfile, $errline)
 {
 	echo 'error load ';
@@ -9,12 +10,12 @@ $old_error_handler = set_error_handler("myErrorHandler");
 $bbb =  explode ( '/' , __DIR__);
 $a= array_pop ($bbb);
 $filecron = implode ( '/', $bbb );
-require_once ($filecron.'/model/database.php');
+//require_once ($filecron.'/model/database.php');
     $ftp_server = "93.189.41.9";
     $ftp_user = "u842261";
     $ftp_pass = "k6oKnqRVVOyG";
     $local_file = $filecron.'/uploads/priceetm.csv';
-    $server_file = 'price.csv';
+    $server_file = '/msk';
     // установить соединение или выйти
     $conn_id = ftp_connect($ftp_server) or die("Не удалось установить соединение с $ftp_server"); 
     
@@ -28,7 +29,8 @@ require_once ($filecron.'/model/database.php');
 //    if (!(ftp_chdir($conn_id, "msk"))) {
 //        echo "Не удалось сменить директорию\n";
 //    }
-    $contents = ftp_mlsd($conn_id, ".");
+    ftp_pasv($conn_id, true);
+    $contents = ftp_mlsd($conn_id, $server_file);
     $number = 0;$modify = 0 ;
     foreach ($contents as $key => $filename) {
         if ($filename['type'] =='file') {
@@ -41,7 +43,7 @@ require_once ($filecron.'/model/database.php');
     }
     // вывод $contents
     var_dump($name);
-
+    $server_file .="/$name";
 
     if (ftp_get($conn_id, $local_file, $server_file, FTP_BINARY)) {
         echo "Произведена запись в $local_file\n";
@@ -50,7 +52,8 @@ require_once ($filecron.'/model/database.php');
 
 		$handle = fopen($inputFileName, "r");
 		$buffer = fgets($handle, 4096);
-		deleteProductByIdPurveyors('ETM');
+		$tableProduct = new Ivliev\model\Product();
+		$tableProduct->deleteProductByIdPurveyors('ETM');
 		$onlyone = 2;
 		while (!feof($handle)) {
 			$buffer = iconv("windows-1251", "utf-8", fgets($handle, 4096));
@@ -63,16 +66,14 @@ require_once ($filecron.'/model/database.php');
 			$arr = explode (';', $str);
 			if ($arr[3]==0) continue;
             $cell['producer'] = Ivliev\validation\validation::validationProducer($arr[5]);
-//			$cell['producer']= ($arr[5]=='Шнейдер Электрик') ? 'Schneider Electric' : $arr[5] ;
-//			if($cell['producer'] == 'LEGRAND') $cell['producer'] = 'Legrand';
-			$cell['artikle']= $arr[4];
-			$cell['name'] = $arr[1];
+			$cell['artikle']= trim($arr[4]);
+			$cell['name'] = trim($arr[1]);
 			$cell['presence'] = (int)$arr[3];
 			$cell['packaging'] = (int)$arr[10];
 			$cell['multiplicity'] = (int)$arr[11];
 
 			//"artikle","name","presence",'multiplicity','packaging','cost','producer'
-			insertProduct('ETM',$cell);
+			$tableProduct->insertProduct('ETM',$cell);
 			//echo $arr[0].'</br>';
 		}
 		fclose($handle);

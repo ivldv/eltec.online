@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "phpoffice/phpspreadsheet": "^1.9",
+        "phpoffice/phpspreadsheet": "^1.10",
         "ext-simplexml": "*",
         "ext-json": "*",
         "ext-zip": "*",

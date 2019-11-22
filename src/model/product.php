@@ -10,7 +10,15 @@ var $tableProduct;
 var $tableoffers;
 
 // Конструктор
-public function __construct(array $configPDO)
+public function __construct(array $configPDO = [
+    'host' => 'localhost',
+    'db'=>'test',
+    'charset'=>'utf8',
+    'user' =>'ivldv',
+    'pass'=>'root',
+    'tableProduct' => 'product',
+    'tableoffers'=>'teslioffers'
+])
 {
     $dsn = "mysql:host=".$configPDO['host'].";dbname=".$configPDO['db'].";charset=".$configPDO['charset'];
     $opt = [
@@ -24,7 +32,7 @@ public function __construct(array $configPDO)
     $this->tableoffers = $configPDO['tableoffers'];
 
 }
-    function pdoSet($allowed, &$values, $source = array())
+    private function pdoSet($allowed, &$values, $source = array())
     {
         $set = '';
         $values = array();
@@ -52,12 +60,12 @@ public function __construct(array $configPDO)
      */
     public function insertProduct($Purveyors,$products){
 
-        $sql = "SELECT id FROM assortiment WHERE article = ".$products['artikle']." AND ".$products['producer'];
+        $sql = "SELECT id FROM assortiment WHERE article = '".$products['artikle']."' AND producer = '".$products['producer']."';";
         $stmt = $this->pdo->query($sql);
         $idPos = $stmt->fetchAll(PDO::FETCH_COLUMN);
         if ($idPos)
         {
-            $products['id_assortiment'] = $idPos;
+            $products['id_assortiment'] = $idPos[0];
             $allowed = array("artikle","name","presence",'multiplicity','packaging','cost','producer','groupprodukt','id_assortiment'); // allowed fields
         }else{
             $allowed = array("artikle","name","presence",'multiplicity','packaging','cost','producer','groupprodukt'); // allowed fields

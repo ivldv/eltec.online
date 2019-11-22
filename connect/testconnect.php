@@ -1,7 +1,7 @@
 <?php
  
 //выбираем страницу на которую необходимо отправить запрос
-$url = 'http://eltec.local.last/connect/connect.php';
+$url = 'http://eltec.online.local/connect/connect.php';
 //параметры которые необходимо передать
 $params = array(
     'login' => 'WQP',

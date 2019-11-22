@@ -14,6 +14,10 @@ class validation
         {
             $producer = 'Schneider Electric' ;
         }
+        if($producer === 'DKC')
+        {
+            $producer = 'ДКС' ;
+        }
 
         return $producer;
     }

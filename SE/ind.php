@@ -29,30 +29,6 @@ $rez = '{"result":"success","data":[{"commercialRef":"'.$commercialRef.'","stock
             }
         }
     }
-    // $elevel = getStockElevel($commercialRef);
-    // if ($elevel != false) {
-    //     foreach ($elevel as  $value) {
-    //         if (substr($rez,-1)=='}') {
-    //             $rez = $rez.','; 
-    //         }
-    //         if ($value->Stock !=0) {
-    //             $rez = $rez.'{"id":"55555","warehouse":"Elevel","count":"'.$value->Stock.'","last_update":"'.date("d-m-Y H:i:s").'"},';                # code...
-    //         } 
-    //         $rez = $rez.'{"id":"55555","warehouse":"Elevel-alt","count":"'.$value->Additional.'","last_update":"'.date("d-m-Y H:i:s").'"}';
-    //     }
-    // }
-    // $data=@file_get_contents($url.'&commercialRef='.$commercialRef); 
-    // $prom =json_decode ($data);
-    // if ($prom->data != NULL){
-    //     forEach ($prom->data as $elem){
-    //         forEach ($elem->stocks as $value) {
-    //             if (substr($rez,-1)=='}') {
-    //                 $rez = $rez.','; 
-    //             }
-    //             $rez = $rez.json_encode ($value);
-    //         }
-    //     }
-    // };
     $rez = $rez.']}]}';
     echo $rez;
 

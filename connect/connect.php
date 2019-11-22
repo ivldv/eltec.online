@@ -1,6 +1,5 @@
 <?php
 header('Access-Control-Allow-Origin: *');
-
 if(isset($_POST['login'])) {
     require_once ('../SE/model/database.php');
     global $pdo,$tableProduct;
@@ -18,4 +17,3 @@ if(isset($_POST['login'])) {
     }
 
 }
-
